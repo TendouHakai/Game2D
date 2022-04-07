@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{267e93b1-89f1-4035-b1f4-aed7edcbb085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject">
+      <UniqueIdentifier>{0e0cda52-fe33-4aff-b4d8-c2024c5e4ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation">
+      <UniqueIdentifier>{da2ee35d-560d-4d0e-9f2c-fd4f111487ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Sprite">
+      <UniqueIdentifier>{cec0adc2-6106-4aed-9680-4fa8bdc077e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Texture">
+      <UniqueIdentifier>{9fe31ca8-50cd-4bfb-b840-8cd80c2fa3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Animation">
+      <UniqueIdentifier>{bc8deb9d-ce1c-4877-b6c4-4c28dd310dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameGraphic">
+      <UniqueIdentifier>{e0281e1a-ad75-4740-b0eb-5326cb1b1d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameWorld">
+      <UniqueIdentifier>{7ec6db96-deae-4081-ba25-027e18b7340c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\InputDevice">
+      <UniqueIdentifier>{dd09733a-67e9-49ef-a26c-dce812bf8263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\tinyXML">
+      <UniqueIdentifier>{7a666231-44ed-4695-91dd-0fbce7ff8f10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteManager.cpp">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>FrameWork\GameAnimation\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphic.cpp">
+      <Filter>FrameWork\GameGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationManager.cpp">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarco.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyBoard.cpp">
+      <Filter>FrameWork\InputDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="CChowmein.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CLocust.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Flying_Killer.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cplayscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuadtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuadnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Marcoinfo.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteManager.h">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>FrameWork\GameAnimation\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphic.h">
+      <Filter>FrameWork\GameGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationFrame.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationManager.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarco.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyBoard.h">
+      <Filter>FrameWork\InputDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="CChowmein.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CLocust.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Flying_Killer.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cplayscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuadtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuadnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

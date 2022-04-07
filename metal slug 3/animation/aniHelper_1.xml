@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Textures>
+	<Textures gameObjectId= "5000">
+		<Animation aniId="ani_Helper_1_catch" frameTime="100" name="catch">
+			<sprite id = "Helper_1_catch_0" />
+			<sprite id = "Helper_1_catch_1" />
+			<sprite id = "Helper_1_catch_2" />
+			<sprite id = "Helper_1_catch_3" />
+			<sprite id = "Helper_1_catch_4" />
+			<sprite id = "Helper_1_catch_5"/>
+			<sprite id = "Helper_1_catch_6" />
+			<sprite id = "Helper_1_catch_7" />
+			<sprite id = "Helper_1_catch_8" />
+		</Animation>
+
+		<Animation aniId="ani_Helper_1_drop_items" frameTime="100" name="drop_items">
+			<sprite id = "Helper_1_drop_items_0"/>
+			<sprite id = "Helper_1_drop_items_1" />
+			<sprite id = "Helper_1_drop_items_2" />
+			<sprite id = "Helper_1_drop_items_3" />
+			<sprite id = "Helper_1_drop_items_4" />
+			<sprite id = "Helper_1_drop_items_5"/>
+			<sprite id = "Helper_1_drop_items_6" />
+			<sprite id = "Helper_1_drop_items_7" />
+			<sprite id = "Helper_1_drop_items_8" />
+			<sprite id = "Helper_1_drop_items_9" />
+			<sprite id = "Helper_1_drop_items_10" />
+		</Animation>
+
+		<Animation aniId="ani_Helper_1_walk" frameTime="100" name="walk">
+			<sprite id = "Helper_1_walk_0" />
+			<sprite id = "Helper_1_walk_1" />
+			<sprite id = "Helper_1_walk_2" />
+			<sprite id = "Helper_1_walk_3" />
+			<sprite id = "Helper_1_walk_4" />
+			<sprite id = "Helper_1_walk_5" />
+			<sprite id = "Helper_1_walk_6" />
+			<sprite id = "Helper_1_walk_7" />
+			<sprite id = "Helper_1_walk_8" />
+			<sprite id = "Helper_1_walk_9" />
+			<sprite id = "Helper_1_walk_10"/>
+			<sprite id = "Helper_1_walk_11"/>
+		</Animation>
+
+		<Animation aniId="ani_Helper_1_release" frameTime="100" name="release">
+			<sprite id = "Helper_1_release_0" />
+			<sprite id = "Helper_1_release_1" />
+			<sprite id = "Helper_1_release_2" />
+		</Animation>
+	</Textures>
+</Textures>

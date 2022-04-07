@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Textures>
+	<Textures gameObjectId= "1000">
+		<Animation aniId="ani_chowmein_walk" frameTime="100" name="walk">
+			<sprite id= "sprite_chowmein_walk_0" />
+			<sprite id= "sprite_chowmein_walk_1"/>
+			<sprite id= "sprite_chowmein_walk_2"/>
+			<sprite id= "sprite_chowmein_walk_3" />
+			<sprite id= "sprite_chowmein_walk_4" />
+			<sprite id= "sprite_chowmein_walk_5"/>
+		</Animation>
+
+		<Animation aniId="ani_chowmein_IDLE" frameTime="100" name="IDLE">
+			<sprite id= "chowmein_IDLE_0"/>
+			<sprite id= "chowmein_IDLE_1"/>
+			<sprite id= "chowmein_IDLE_2"/>
+			<sprite id= "chowmein_IDLE_3"/>
+			<sprite id= "chowmein_IDLE_4"/>
+			<sprite id= "chowmein_IDLE_5"/>
+			<sprite id= "chowmein_IDLE_6"/>
+		</Animation>
+		
+		<Animation aniId="ani_chowmein_dead" frameTime="100" name="dead">
+			<sprite id= "chowmein_dead_0" />
+			<sprite id= "chowmein_dead_1" />
+			<sprite id= "chowmein_dead_2" />
+			<sprite id= "chowmein_dead_3" />
+			<sprite id= "chowmein_dead_4" />
+			<sprite id= "chowmein_dead_5" />
+			<sprite id= "chowmein_dead_6" />
+			<sprite id= "chowmein_dead_7"/>
+			<sprite id= "chowmein_dead_8" />
+			<sprite id= "chowmein_dead_9"/>
+			<sprite id= "chowmein_dead_10" />
+			<sprite id= "chowmein_dead_11"/>
+			<sprite id= "chowmein_dead_12" />
+			<sprite id= "chowmein_dead_13" />
+			<sprite id= "chowmein_dead_14"/>
+			<sprite id= "chowmein_dead_15" />
+			<sprite id= "chowmein_dead_16" />
+			<sprite id= "chowmein_dead_17" />
+			<sprite id= "chowmein_dead_18"/>
+			<sprite id= "chowmein_dead_19" />
+		</Animation>
+		
+		<Animation aniId="ani_chowmein_melee_attack" frameTime="100" name="melle_attack">
+			<sprite id= "chowmein_melee_attack_0"/>
+			<sprite id= "chowmein_melee_attack_1" />
+			<sprite id= "chowmein_melee_attack_2"/>
+			<sprite id= "chowmein_melee_attack_3" />
+			<sprite id= "chowmein_melee_attack_4"/>
+			<sprite id= "chowmein_melee_attack_5" />
+			<sprite id= "chowmein_melee_attack_6"/>
+			<sprite id= "chowmein_melee_attack_7"/>
+			<sprite id= "chowmein_melee_attack_8" />
+			<sprite id= "chowmein_melee_attack_9" />
+			<sprite id= "chowmein_melee_attack_10"/>
+			<sprite id= "chowmein_melee_attack_11" />
+			<sprite id= "chowmein_melee_attack_12"/>
+		</Animation>
+		
+		<Animation aniId="ani_chowmein_range_attack" frameTime="100" name="IDLE">
+			<sprite id= "chowmein_range_attack_0" />
+			<sprite id= "chowmein_range_attack_1" />
+			<sprite id= "chowmein_range_attack_2"/>
+			<sprite id= "chowmein_range_attack_3" />
+			<sprite id= "chowmein_range_attack_4"/>
+			<sprite id= "chowmein_range_attack_5" />
+			<sprite id= "chowmein_range_attack_6"/>
+			<sprite id= "chowmein_range_attack_7" />
+			<sprite id= "chowmein_range_attack_8"/>
+			<sprite id= "chowmein_range_attack_9"/>
+			<sprite id= "chowmein_range_attack_10"/>
+			<sprite id= "chowmein_range_attack_11"/>
+			<sprite id= "chowmein_range_attack_12" />
+		</Animation>
+	</Textures>
+</Textures>

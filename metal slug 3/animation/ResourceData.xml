@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Resources>
+		<Textures>	
+			<Texture id="Marco_leg_run" path="animation/Marco/Marco_leg_run.png"/>
+			<Texture id="Marco_leg_stand" path="animation/Marco/Marco_leg_stand.png"/>
+			<Texture id="Marco_Body_run" path="animation/Marco/Marco_Body_run.png"/>
+			<Texture id="Marco_Body_stand" path="animation/Marco/Marco_Body_stand.png"/>
+			
+			<Texture id="chowmein_walk" path="animation/Chowmein/chowmein_walk.png"/>
+			<Texture id="chowmein_dead" path="animation/Chowmein/chowmein_dead.png"/>
+			<Texture id="chowmein_IDLE" path="animation/Chowmein/chowmein_IDLE.png"/>
+			<Texture id="chowmein_melee_attack" path="animation/Chowmein/chowmein_melee_attack.png"/>
+			<Texture id="chowmein_range_attack" path="animation/Chowmein/chowmein_range_attack.png"/>
+
+			<Texture id="Locust_attack" path="animation/Locust/Locust_attack.png"/>
+			<Texture id="Locust_preattack" path="animation/Locust/Locust_preattack.png"/>
+			<Texture id="Locust_flying" path="animation/Locust/Locust_flying.png"/>
+			<Texture id="Locust_turn" path="animation/Locust/Locust_turn.png"/>
+			
+			<Texture id="Flying_killer_jump" path="animation/Flying_Killer/Flying_killer_jump.png"/>
+			<Texture id="Flying_killer_attack" path="animation/Flying_Killer/Flying_killer_attack.png"/>
+
+			<Texture id="Helper_1_catch" path="animation/Helper_1/Helper_1_catch.png"/>
+			<Texture id="Helper_1_drop_items" path="animation/Helper_1/Helper_1_drop_items.png"/>
+			<Texture id="Helper_1_walk" path="animation/Helper_1/Helper_1_walk.png"/>
+			<Texture id="Helper_1_release" path="animation/Helper_1/Helper_1_release.png"/>
+		
+		</Textures>
+		<Sprites>
+			<Sprite path="animation/Marco.xml"/>
+			<Sprite path="animation/Chowmein.xml"/>
+			<Sprite path="animation/Locust.xml"/>
+			<Sprite path="animation/Flying_Killer.xml"/>
+			<Sprite path="animation/Helper_1.xml"/>
+		</Sprites>
+		<Animations>
+			<Animation path="animation/aniMarco.xml"/>
+			<Animation path="animation/aniChowmein.xml"/>
+			<Animation path="animation/aniLocust.xml"/>
+			<Animation path="animation/aniFlyingKiller.xml"/>
+			<Animation path="animation/aniHelper_1.xml"/>
+		</Animations>
+	</Resources>
+</Game>

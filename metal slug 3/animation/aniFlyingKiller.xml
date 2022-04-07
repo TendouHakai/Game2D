@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Textures>
+	<Textures gameObjectId= "3000">
+		<Animation aniId="ani_Flying_killer_jump" frameTime="100" name="Jump">
+			<sprite id = "Flying_killer_jump_0 "/>
+			<sprite id = "Flying_killer_jump_1 " />
+			<sprite id = "Flying_killer_jump_2 " />
+			<sprite id = "Flying_killer_jump_3 " />
+			<sprite id = "Flying_killer_jump_4 " />
+			<sprite id = "Flying_killer_jump_5 " />
+			<sprite id = "Flying_killer_jump_6 " />
+			<sprite id = "Flying_killer_jump_7 " />
+			<sprite id = "Flying_killer_jump_8 " />
+			<sprite id = "Flying_killer_jump_9 " />
+			<sprite id = "Flying_killer_jump_10 " />
+			<sprite id = "Flying_killer_jump_11 "/>
+		</Animation>
+
+		<Animation aniId="ani_Flying_killer_attack" frameTime="50" name="dead">
+			<sprite id = "Flying_killer_attack_0 " />
+			<sprite id = "Flying_killer_attack_1 "/>
+			<sprite id = "Flying_killer_attack_2 " />
+			<sprite id = "Flying_killer_attack_3 " />
+			<sprite id = "Flying_killer_attack_4 " />
+			<sprite id = "Flying_killer_attack_5 " />
+			<sprite id = "Flying_killer_attack_6 " />
+			<sprite id = "Flying_killer_attack_7 " />
+			<sprite id = "Flying_killer_attack_8 "/>
+			<sprite id = "Flying_killer_attack_9 " />
+			<sprite id = "Flying_killer_attack_10 " />
+			<sprite id = "Flying_killer_attack_11 " />
+			<sprite id = "Flying_killer_attack_12 " />
+			<sprite id = "Flying_killer_attack_13 " />
+			<sprite id = "Flying_killer_attack_14 " />
+			<sprite id = "Flying_killer_attack_15 "/>
+			<sprite id = "Flying_killer_attack_16 "/>
+			<sprite id = "Flying_killer_attack_17 " />
+			<sprite id = "Flying_killer_attack_18 "/>
+			<sprite id = "Flying_killer_attack_19 " />
+			<sprite id = "Flying_killer_attack_20 "/>
+			<sprite id = "Flying_killer_attack_21 " />
+			<sprite id = "Flying_killer_attack_22 " />
+			<sprite id = "Flying_killer_attack_23 " />
+		</Animation>
+	
+	</Textures>
+</Textures>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Textures>
+	<Textures gameObjectId= "2000">
+		<Animation aniId="ani_Locust_attack" frameTime="100" name="walk">
+			<sprite id = "Locust_attack_0 " />
+			<sprite id = "Locust_attack_1 " />
+			<sprite id = "Locust_attack_2 " />
+			<sprite id = "Locust_attack_3 " />
+			<sprite id = "Locust_attack_4 "/>
+			<sprite id = "Locust_attack_5 " />
+			<sprite id = "Locust_attack_6 " />
+			<sprite id = "Locust_attack_7 " />
+			<sprite id = "Locust_attack_8 " />
+			<sprite id = "Locust_attack_9 " />
+			<sprite id = "Locust_attack_10 "/>
+			<sprite id = "Locust_attack_11 "/>
+			<sprite id = "Locust_attack_12 " />
+			<sprite id = "Locust_attack_13 "/>
+			<sprite id = "Locust_attack_14 " />
+			<sprite id = "Locust_attack_15 "/>
+			<sprite id = "Locust_attack_16 "/>
+			<sprite id = "Locust_attack_17 " />
+			<sprite id = "Locust_attack_18 " />
+			<sprite id = "Locust_attack_19 " />
+		</Animation>
+
+		<Animation aniId="ani_Locust_preattack" frameTime="100" name="IDLE">
+			<sprite id = "Locust_preattack_0 " />
+			<sprite id = "Locust_preattack_1 " />
+			<sprite id = "Locust_preattack_2 " />
+			<sprite id = "Locust_preattack_3 "/>
+			<sprite id = "Locust_preattack_4 " />
+			<sprite id = "Locust_preattack_5 " />
+			<sprite id = "Locust_preattack_6 "/>
+			<sprite id = "Locust_preattack_7 " />
+			<sprite id = "Locust_preattack_8 " />
+			<sprite id = "Locust_preattack_9 " />
+			<sprite id = "Locust_preattack_10 " />
+			<sprite id = "Locust_preattack_11 "/>
+			<sprite id = "Locust_preattack_12 "/>
+			<sprite id = "Locust_preattack_13 " />
+			<sprite id = "Locust_preattack_14 " />
+			<sprite id = "Locust_preattack_15 " />
+			<sprite id = "Locust_preattack_16 " />
+			<sprite id = "Locust_preattack_17 " />
+			<sprite id = "Locust_preattack_18 "/>
+			<sprite id = "Locust_preattack_19 "/>
+		</Animation>
+
+		<Animation aniId="ani_Locust_flying" frameTime="50" name="dead">
+			<sprite id = "Locust_flying_0 " />
+			<sprite id = "Locust_flying_1 " />
+			<sprite id = "Locust_flying_2 " />
+			<sprite id = "Locust_flying_3 " />
+			<sprite id = "Locust_flying_4 " />
+			<sprite id = "Locust_flying_5 " />
+			<sprite id = "Locust_flying_6 " />
+			<sprite id = "Locust_flying_7 "/>
+			<sprite id = "Locust_flying_8 "/>
+			<sprite id = "Locust_flying_9 " />
+			<sprite id = "Locust_flying_10 "/>
+			<sprite id = "Locust_flying_11 "/>
+			<sprite id = "Locust_flying_12 "/>
+			<sprite id = "Locust_flying_13 " />
+			<sprite id = "Locust_flying_14 "/>
+			<sprite id = "Locust_flying_15 " />
+			<sprite id = "Locust_flying_16 " />
+			<sprite id = "Locust_flying_17 " />
+			<sprite id = "Locust_flying_18 "/>
+			<sprite id = "Locust_flying_19 " />
+			<sprite id = "Locust_flying_20 "/>
+			<sprite id = "Locust_flying_21 " />
+			<sprite id = "Locust_flying_22 " />
+			<sprite id = "Locust_flying_23 " />
+			<sprite id = "Locust_flying_24 " />
+			<sprite id = "Locust_flying_25 " />
+			<sprite id = "Locust_flying_26 " />
+			<sprite id = "Locust_flying_27 "/>
+			<sprite id = "Locust_flying_28 " />
+			<sprite id = "Locust_flying_29 "/>
+			<sprite id = "Locust_flying_30 " />
+			<sprite id = "Locust_flying_31 " />
+			<sprite id = "Locust_flying_32 " />
+			<sprite id = "Locust_flying_33 " />
+			<sprite id = "Locust_flying_34 " />
+			<sprite id = "Locust_flying_35 "/>
+			<sprite id = "Locust_flying_36 "/>
+			<sprite id = "Locust_flying_37 " />
+			<sprite id = "Locust_flying_38 " />
+			<sprite id = "Locust_flying_39 "/>
+		</Animation>
+
+		<Animation aniId="ani_Locust_turn" frameTime="100" name="IDLE">
+			<sprite id = "Locust_turn_0 "/>
+			<sprite id = "Locust_turn_1 " />
+			<sprite id = "Locust_turn_2 " />
+			<sprite id = "Locust_turn_3 " />
+			<sprite id = "Locust_turn_4 "/>
+			<sprite id = "Locust_turn_5 " />
+			<sprite id = "Locust_turn_6 " />
+			<sprite id = "Locust_turn_7 " />
+			<sprite id = "Locust_turn_8 " />
+			<sprite id = "Locust_turn_9 "/>
+			<sprite id = "Locust_turn_10 " />
+			<sprite id = "Locust_turn_11 "/>
+			<sprite id = "Locust_turn_12 "/>
+			<sprite id = "Locust_turn_13 " />
+		</Animation>
+	</Textures>
+</Textures>

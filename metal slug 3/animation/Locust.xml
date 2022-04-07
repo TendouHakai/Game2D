@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Textures>
+	<Textures textureId="Locust_attack">
+		<sprite id = "Locust_attack_0 " x="76" y="283" w="73" h="48" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_1 " x="1" y="237" w="73" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_2 " x="1" y="125" w="73" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_3 " x="76" y="1" w="73" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_4 " x="151" y="173" w="73" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_5 " x="1" y="290" w="73" h="47" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_6 " x="151" y="282" w="73" h="50" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_7 " x="76" y="175" w="73" h="53" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_8 " x="151" y="1" w="73" h="56" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_9 " x="1" y="182" w="73" h="53" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_10 " x="151" y="334" w="73" h="45" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_11 " x="151" y="230" w="73" h="50" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_12 " x="151" y="59" w="73" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_13 " x="1" y="1" w="73" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_14 " x="76" y="119" w="73" h="54" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_15 " x="76" y="333" w="73" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_16 " x="76" y="230" w="73" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_17 " x="76" y="62" w="73" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_18 " x="1" y="63" w="73" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_attack_19 " x="151" y="116" w="73" h="55" pX="0.5" pY="0.5"/>
+	</Textures>
+
+	<Textures textureId="Locust_preattack">
+		<sprite id = "Locust_preattack_0 " x="64" y="56" w="71" h="48" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_1 " x="64" y="1" w="69" h="53" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_2 " x="137" y="50" w="66" h="56" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_3 " x="1" y="1" w="61" h="63" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_4 " x="1" y="66" w="57" h="63" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_5 " x="436" y="1" w="58" h="61" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_6 " x="278" y="49" w="56" h="57" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_7 " x="342" y="92" w="62" h="54" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_8 " x="274" y="112" w="66" h="49" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_9 " x="406" y="112" w="67" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_10 " x="135" y="108" w="69" h="50" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_11 " x="206" y="112" w="66" h="49" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_12 " x="210" y="49" w="66" h="47" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_13 " x="429" y="64" w="65" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_14 " x="360" y="46" w="67" h="44" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_15 " x="210" y="1" w="73" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_16 " x="135" y="1" w="73" h="47" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_17 " x="360" y="1" w="74" h="43" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_18 " x="60" y="106" w="73" h="44" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_preattack_19 " x="285" y="1" w="73" h="45" pX="0.5" pY="0.5"/>
+	</Textures>
+
+	<Textures textureId="Locust_flying">
+		<sprite id = "Locust_flying_0 " x="1" y="210" w="71" h="48" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_1 " x="149" y="179" w="71" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_2 " x="1" y="52" w="72" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_3 " x="142" y="502" w="68" h="58" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_4 " x="1" y="475" w="68" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_5 " x="70" y="569" w="67" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_6 " x="139" y="623" w="67" h="57" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_7 " x="70" y="630" w="67" h="56" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_8 " x="149" y="125" w="71" h="52" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_9 " x="1" y="1" w="74" h="49" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_10 " x="77" y="1" w="73" h="49" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_11 " x="75" y="109" w="72" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_12 " x="75" y="157" w="72" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_13 " x="73" y="303" w="70" h="45" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_14 " x="72" y="412" w="69" h="44" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_15 " x="1" y="162" w="72" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_16 " x="71" y="520" w="68" h="47" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_17 " x="143" y="457" w="69" h="43" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_18 " x="1" y="429" w="69" h="44" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_19 " x="1" y="321" w="70" h="45" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_20 " x="74" y="253" w="71" h="48" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_21 " x="149" y="232" w="71" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_22 " x="144" y="400" w="69" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_23 " x="1" y="536" w="67" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_24 " x="149" y="67" w="71" h="56" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_25 " x="70" y="688" w="67" h="47" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_26 " x="1" y="598" w="67" h="57" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_27 " x="145" y="338" w="69" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_28 " x="152" y="1" w="68" h="64" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_29 " x="72" y="458" w="68" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_30 " x="139" y="682" w="67" h="49" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_31 " x="1" y="109" w="72" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_32 " x="75" y="52" w="72" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_33 " x="1" y="260" w="70" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_34 " x="73" y="350" w="69" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_35 " x="75" y="205" w="72" h="46" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_36 " x="147" y="285" w="70" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_37 " x="1" y="657" w="67" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_38 " x="141" y="562" w="67" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_flying_39 " x="1" y="368" w="69" h="59" pX="0.5" pY="0.5"/>
+	</Textures>
+
+	<Textures textureId="Locust_turn">
+		<sprite id = "Locust_turn_0 " x="58" y="112" w="68" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_1 " x="1" y="287" w="62" h="58" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_2 " x="65" y="292" w="60" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_3 " x="70" y="169" w="57" h="59" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_4 " x="1" y="1" w="62" h="51" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_5 " x="70" y="230" w="56" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_6 " x="59" y="353" w="64" h="60" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_7 " x="1" y="347" w="56" h="62" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_8 " x="1" y="109" w="55" h="57" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_9 " x="65" y="1" w="60" h="52" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_10 " x="1" y="54" w="61" h="53" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_11 " x="64" y="55" w="62" h="55" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_12 " x="1" y="169" w="67" h="57" pX="0.5" pY="0.5"/>
+		<sprite id = "Locust_turn_13 " x="1" y="228" w="67" h="57" pX="0.5" pY="0.5"/>
+	</Textures>
+</Textures>
+

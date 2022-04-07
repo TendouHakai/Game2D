@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Textures>
+	<Textures textureId="chowmein_walk">
+        <sprite id= "sprite_chowmein_walk_0" x="1" y="1" w="51" h="45" pX="0.5" pY="0.5"/>
+        <sprite id= "sprite_chowmein_walk_1" x="105" y="1" w="48" h="45" pX="0.5" pY="0.5"/>
+        <sprite id= "sprite_chowmein_walk_2" x="54" y="1" w="49" h="45" pX="0.5" pY="0.5"/>
+        <sprite id= "sprite_chowmein_walk_3" x="106" y="48" w="48" h="44" pX="0.5" pY="0.5"/>
+        <sprite id= "sprite_chowmein_walk_4" x="1" y="48" w="51" h="44" pX="0.5" pY="0.5"/>
+        <sprite id= "sprite_chowmein_walk_5" x="54" y="48" w="50" h="44" pX="0.5" pY="0.5"/>
+	</Textures>
+	
+	<Textures textureId="chowmein_IDLE">
+		<sprite id= "chowmein_IDLE_0" x="165" y="1" w="51" h="45"/>
+		<sprite id= "chowmein_IDLE_1" x="218" y="1" w="50" h="45"/>
+		<sprite id= "chowmein_IDLE_2" x="270" y="1" w="50" h="45"/>
+		<sprite id= "chowmein_IDLE_3" x="111" y="1" w="52" h="44"/>
+		<sprite id= "chowmein_IDLE_4" x="1" y="1" w="53" h="44"/>
+		<sprite id= "chowmein_IDLE_5" x="56" y="1" w="53" h="44"/>
+		<sprite id= "chowmein_IDLE_6" x="322" y="1" w="50" h="44"/>
+	</Textures>
+	
+	<Textures textureId="chowmein_dead">
+		<sprite id= "chowmein_dead_0" x="1041" y="1" w="54" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_1" x="1163" y="1" w="52" h="43" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_2" x="1217" y="1" w="53" h="42" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_3" x="983" y="1" w="56" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_4" x="639" y="1" w="63" h="49" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_5" x="501" y="1" w="66" h="52" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_6" x="843" y="1" w="65" h="47" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_7" x="775" y="1" w="66" h="47" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_8" x="704" y="1" w="69" h="47" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_9" x="1097" y="1" w="64" h="43" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_10" x="569" y="1" w="68" h="51" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_11" x="431" y="1" w="68" h="52" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_12" x="1" y="1" w="68" h="56" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_13" x="71" y="1" w="68" h="56" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_14" x="211" y="1" w="69" h="55" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_15" x="141" y="1" w="68" h="56" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_16" x="282" y="1" w="72" h="54" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_17" x="356" y="1" w="73" h="52" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_18" x="910" y="1" w="71" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_dead_19" x="1272" y="1" w="63" h="25" pX="0.5" pY="0.5"/>
+	</Textures>
+	
+	<Textures textureId="chowmein_melee_attack">
+		<sprite id= "chowmein_melee_attack_0" x="88" y="93" w="48" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_1" x="205" y="1" w="45" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_2" x="1" y="94" w="40" h="52" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_3" x="43" y="94" w="43" h="50" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_4" x="194" y="94" w="54" h="46" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_5" x="78" y="47" w="62" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_6" x="1" y="48" w="75" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_7" x="1" y="1" w="75" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_8" x="78" y="1" w="64" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_9" x="144" y="1" w="59" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_10" x="142" y="47" w="54" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_11" x="138" y="94" w="54" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_melee_attack_12" x="198" y="47" w="51" h="44" pX="0.5" pY="0.5"/>
+	</Textures>
+
+	<Textures textureId="chowmein_range_attack">
+		<sprite id= "chowmein_range_attack_0" x="456" y="1" w="52" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_1" x="510" y="1" w="52" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_2" x="622" y="1" w="53" h="43" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_3" x="677" y="1" w="55" h="42" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_4" x="564" y="1" w="56" h="43" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_5" x="342" y="1" w="57" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_6" x="115" y="1" w="57" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_7" x="231" y="1" w="54" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_8" x="401" y="1" w="53" h="44" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_9" x="1" y="1" w="56" h="46" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_10" x="287" y="1" w="53" h="45" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_11" x="59" y="1" w="54" h="46" pX="0.5" pY="0.5"/>
+		<sprite id= "chowmein_range_attack_12" x="174" y="1" w="55" h="45" pX="0.5" pY="0.5"/>
+	</Textures>
+</Textures>
