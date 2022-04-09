@@ -20,7 +20,7 @@ public:
 
 	virtual void AddFrame(Sprite sprite, DWORD frameTime = 0);
 
-	virtual void Render(Vec2 vec2,D3DCOLOR overlay);
+	virtual void Render(Vec2 vec2,D3DCOLOR overlay, bool flag,Vec2 size, Vec2 translate);
 
 	virtual float GetPlayScale() { return this->playScale; }
 

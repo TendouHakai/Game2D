@@ -15,7 +15,7 @@ protected:
 	Vec2 Obj_Position;
 	Vec2 Obj_Size;
 	Vec2 Obj_speed;
-
+	bool flag = true;
 	int nx;
 
 	string state;
@@ -27,7 +27,7 @@ public:
 	virtual string GetState() { return this->state; }
 
 	CGameObject();
-	CGameObject(Vec2 Positon) { this->Obj_Position = Positon; }
+	CGameObject(Vec2 Position) { this->Obj_Position = Position;}
 
 	virtual void Update(DWORD dt) = 0;
 	virtual void Render() = 0;

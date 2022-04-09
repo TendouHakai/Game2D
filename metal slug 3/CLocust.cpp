@@ -14,16 +14,16 @@ void CLocust::DrawAnimation()
 	switch (states)
 	{
 	case Locust_states::flying:
-		CAnimationManager::GetInstance()->Get("ani_Locust_flying").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Locust_flying").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0, 0));
 		break;
 	case Locust_states::attack:
-		CAnimationManager::GetInstance()->Get("ani_Locust_attack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Locust_attack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0, 0));
 		break;
 	case Locust_states::preattack:
-		CAnimationManager::GetInstance()->Get("ani_Locust_preattack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Locust_preattack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0, 0));
 		break;
 	case Locust_states::turn:
-		CAnimationManager::GetInstance()->Get("ani_Locust_turn").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Locust_turn").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0, 0));
 		break;
 	default:
 		break;

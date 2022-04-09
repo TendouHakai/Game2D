@@ -3,9 +3,13 @@
 	<Resources>
 		<Textures>	
 			<Texture id="Marco_leg_run" path="animation/Marco/Marco_leg_run.png"/>
+			<Texture id="Marco_body_run" path="animation/Marco/Marco_body_run.png"/>
 			<Texture id="Marco_leg_stand" path="animation/Marco/Marco_leg_stand.png"/>
-			<Texture id="Marco_Body_run" path="animation/Marco/Marco_Body_run.png"/>
-			<Texture id="Marco_Body_stand" path="animation/Marco/Marco_Body_stand.png"/>
+			<Texture id="Marco_body_stand" path="animation/Marco/Marco_body_stand.png"/>
+			<Texture id="Marco_leg_jump" path="animation/Marco/Marco_leg_jump.png"/>
+			<Texture id="Marco_body_jump" path="animation/Marco/Marco_body_jump.png"/>
+			<Texture id="Marco_leg_run_jump" path="animation/Marco/Marco_leg_run_jump.png"/>
+			<Texture id="Marco_body_run_jump" path="animation/Marco/Marco_body_run_jump.png"/>
 			
 			<Texture id="chowmein_walk" path="animation/Chowmein/chowmein_walk.png"/>
 			<Texture id="chowmein_dead" path="animation/Chowmein/chowmein_dead.png"/>
@@ -25,7 +29,27 @@
 			<Texture id="Helper_1_drop_items" path="animation/Helper_1/Helper_1_drop_items.png"/>
 			<Texture id="Helper_1_walk" path="animation/Helper_1/Helper_1_walk.png"/>
 			<Texture id="Helper_1_release" path="animation/Helper_1/Helper_1_release.png"/>
-		
+
+			<Texture id="Rebel_Solider_throw_bomb" path="animation/Rebel_Solider/Rebel_Solider_throw_bomb.png"/>
+			<Texture id="Rebel_Solider_IDLE" path="animation/Rebel_Solider/Rebel_Solider_IDLE.png"/>
+			<Texture id="Rebel_Solider_drop_down" path="animation/Rebel_Solider/Rebel_Solider_drop_down.png"/>
+			<Texture id="Rebel_Solider_dead_dropdown" path="animation/Rebel_Solider/Rebel_Solider_dead_dropdown.png"/>
+			<Texture id="Rebel_Solider_dead" path="animation/Rebel_Solider/Rebel_Solider_dead.png"/>
+
+			<Texture id="Huge_Hermit_bomb_drop" path="animation/Huge_Hermit/Huge_Hermit_bomb_drop.png"/>
+			<Texture id="Huge_Hermit_bomb_fire" path="animation/Huge_Hermit/Huge_Hermit_bomb_fire.png"/>
+			<Texture id="Huge_Hermit_deploy_cannon" path="animation/Huge_Hermit/Huge_Hermit_deploy_cannon.png"/>
+			<Texture id="Huge_Hermit_destroyded" path="animation/Huge_Hermit/Huge_Hermit_destroyded.png"/>
+			<Texture id="Huge_Hermit_fire_ani" path="animation/Huge_Hermit/Huge_Hermit_fire_ani.png"/>
+			<Texture id="Huge_Hermit_fire_ball_drop" path="animation/Huge_Hermit/Huge_Hermit_fire_ball_drop.png"/>
+			<Texture id="Huge_Hermit_firing" path="animation/Huge_Hermit/Huge_Hermit_firing.png"/>
+			<Texture id="Huge_Hermit_firing_cannon" path="animation/Huge_Hermit/Huge_Hermit_firing_cannon.png"/>
+			<Texture id="Huge_Hermit_sand_ani" path="animation/Huge_Hermit/Huge_Hermit_sand_ani.png"/>
+			<Texture id="Huge_Hermit_sand_walk" path="animation/Huge_Hermit/Huge_Hermit_sand_walk.png"/>
+			<Texture id="Huge_Hermit_undeploy_cannon" path="animation/Huge_Hermit/Huge_Hermit_undeploy_cannon.png"/>
+			<Texture id="Huge_Hermit_walk" path="animation/Huge_Hermit/Huge_Hermit_walk.png"/>
+			<Texture id="Huge_Hermit_walk_cannon" path="animation/Huge_Hermit/Huge_Hermit_walk_cannon.png"/>
+			
 		</Textures>
 		<Sprites>
 			<Sprite path="animation/Marco.xml"/>
@@ -33,6 +57,8 @@
 			<Sprite path="animation/Locust.xml"/>
 			<Sprite path="animation/Flying_Killer.xml"/>
 			<Sprite path="animation/Helper_1.xml"/>
+			<Sprite path="animation/Rebel_Solider.xml"/>
+			<Sprite path="animation/Huge_Hermit.xml"/>
 		</Sprites>
 		<Animations>
 			<Animation path="animation/aniMarco.xml"/>
@@ -40,6 +66,8 @@
 			<Animation path="animation/aniLocust.xml"/>
 			<Animation path="animation/aniFlyingKiller.xml"/>
 			<Animation path="animation/aniHelper_1.xml"/>
+			<Animation path="animation/aniRebel_Solider.xml"/>
+			<Animation path="animation/aniHuge_Hermit.xml"/>
 		</Animations>
 	</Resources>
 </Game>

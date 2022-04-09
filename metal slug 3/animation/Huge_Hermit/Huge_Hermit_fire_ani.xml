@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:81eba82478ef44012bd59acd09796eea:55f4bc60f182168dd52ae78d88a87445:f66c000bc95ec00b41edb0ed877d9adf$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Huge_Hermit_fire_ani.png" width="116" height="194">
+    <sprite n="0.png" x="0" y="0" w="17" h="16"/>
+    <sprite n="1.png" x="17" y="0" w="30" h="24"/>
+    <sprite n="2.png" x="47" y="0" w="33" h="29"/>
+    <sprite n="3.png" x="75" y="95" w="34" h="33"/>
+    <sprite n="4.png" x="0" y="128" w="32" h="33"/>
+    <sprite n="5.png" x="32" y="128" w="34" h="33"/>
+    <sprite n="6.png" x="66" y="128" w="35" h="33"/>
+    <sprite n="7.png" x="0" y="161" w="36" h="33"/>
+    <sprite n="8.png" x="36" y="161" w="35" h="33"/>
+    <sprite n="9.png" x="71" y="161" w="38" h="33"/>
+    <sprite n="10.png" x="0" y="29" w="39" h="33"/>
+    <sprite n="11.png" x="39" y="29" w="39" h="33"/>
+    <sprite n="12.png" x="78" y="29" w="38" h="33"/>
+    <sprite n="13.png" x="0" y="62" w="38" h="33"/>
+    <sprite n="14.png" x="38" y="62" w="38" h="33"/>
+    <sprite n="15.png" x="76" y="62" w="39" h="33"/>
+    <sprite n="16.png" x="0" y="95" w="39" h="33"/>
+    <sprite n="17.png" x="39" y="95" w="36" h="33"/>
+</TextureAtlas>

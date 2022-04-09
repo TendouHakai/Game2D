@@ -117,16 +117,43 @@ void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, Vec2 postion, D3DCOLOR co
 	this->d3dxSprite->Draw(texture, NULL, NULL, &p, color);
 }
 
-void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, Vec2 postion, D3DCOLOR color)
-{
+//void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, Vec2 postion, D3DCOLOR color, bool flag)
+//{
+//
+//	D3DXMATRIX matScale;
+//	D3DXMATRIX oldMatrix;
+//	d3dxSprite->GetTransform(&oldMatrix);
+//	D3DXMatrixScaling(&matScale, 2.0f, 2.0f, .0f);
+//	D3DXVECTOR3 p(postion.x, postion.y, .0f);
+//	if (flag)
+//	{
+//		D3DXMatrixScaling(&matScale, -2.0f, 2.0f, .0f);
+//		p.x = -p.x;
+//	}
+//	d3dxSprite->SetTransform(&matScale);
+//	
+//	this->d3dxSprite->Draw(texture, &source, NULL, &p, color);
+//	d3dxSprite->SetTransform(&oldMatrix);
+//}
 
+void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, Vec2 postion, D3DCOLOR color, bool flag, Vec2 size,Vec2 translate)
+{
 	D3DXMATRIX matScale;
+	D3DXMATRIX oldMatrix;
+	d3dxSprite->GetTransform(&oldMatrix);
 	D3DXMatrixScaling(&matScale, 2.0f, 2.0f, .0f);
+	D3DXVECTOR3 p(postion.x - size.x/2 - translate.x , postion.y, .0f);
+	if (flag)
+	{
+		D3DXMatrixScaling(&matScale, -2.0f, 2.0f, .0f);
+		p.x = -p.x - size.x - 2*translate.x;
+	}
 	d3dxSprite->SetTransform(&matScale);
 
-	D3DXVECTOR3 p(postion.x, postion.y, .0f);
 	this->d3dxSprite->Draw(texture, &source, NULL, &p, color);
+	d3dxSprite->SetTransform(&oldMatrix);
 }
+
 
 bool CGraphic::Collision(RECT rect1, RECT rect2)
 {

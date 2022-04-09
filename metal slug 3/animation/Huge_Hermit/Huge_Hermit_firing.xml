@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3b76744a8de9a3fcda846512bf9b360d:f450327c3e33f02bd074587ac2dc1fee:e81ec8270b0e3edfe913f425f2d626c6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Huge_Hermit_firing.png" width="460" height="1236">
+    <sprite n="0.png" x="0" y="0" w="230" h="206"/>
+    <sprite n="1.png" x="230" y="0" w="230" h="206"/>
+    <sprite n="2.png" x="0" y="206" w="230" h="206"/>
+    <sprite n="3.png" x="230" y="206" w="230" h="206"/>
+    <sprite n="4.png" x="0" y="412" w="230" h="206"/>
+    <sprite n="5.png" x="230" y="412" w="230" h="206"/>
+    <sprite n="6.png" x="0" y="618" w="230" h="206"/>
+    <sprite n="7.png" x="230" y="618" w="230" h="206"/>
+    <sprite n="8.png" x="0" y="824" w="230" h="206"/>
+    <sprite n="9.png" x="230" y="824" w="230" h="206"/>
+    <sprite n="10.png" x="0" y="1030" w="230" h="206"/>
+    <sprite n="11.png" x="230" y="1030" w="230" h="206"/>
+</TextureAtlas>
