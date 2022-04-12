@@ -2,12 +2,41 @@
 #include "d3d9.h"
 #include "d3dx9.h"
 #include <string>
+#include <vector>
 #include "Transform.h"
 #include "CAnimationManager.h"
 #include "CCamera.h"
 #include "Debug.h"
+#include "Cplayscene.h"
 
 using namespace std;
+
+class CGameObject;
+typedef CGameObject * LPCGameObject;
+
+struct CCollisionEvent;
+typedef CCollisionEvent * LPCOLLISIONEVENT;
+struct CCollisionEvent
+{
+    LPCGameObject obj;
+    float t, nx, ny;
+    float dx, dy;		// *RELATIVE* movement distance between this object and obj
+
+    CCollisionEvent(float t, float nx, float ny, float dx = 0, float dy = 0, LPCGameObject obj = NULL)
+    {
+        this->t = t;
+        this->nx = nx;
+        this->ny = ny;
+        this->dx = dx;
+        this->dy = dy;
+        this->obj = obj;
+    }
+
+    static bool compare(const LPCOLLISIONEVENT &a, LPCOLLISIONEVENT &b)
+    {
+        return a->t < b->t;
+    }
+};
 
 class CGameObject
 {
@@ -16,12 +45,17 @@ protected:
 	Vec2 Obj_Size;
 	Vec2 Obj_speed;
 
+    float dt;
+    float dx;	// dx = vx*dt
+    float dy;	// dy = vy*dt
+
 	int nx;
 
 	string state;
 public:
 	virtual void SetPosition(Vec2 Position) { this->Obj_Position = Position; }
 	virtual void SetSpeed(Vec2 Speed) { this->Obj_speed = Speed; }
+    virtual Vec2 getSpeed() { return this->Obj_speed; }
 
 	virtual void SetState(string state) { this->state = state; }
 	virtual string GetState() { return this->state; }
@@ -29,7 +63,7 @@ public:
 	CGameObject();
 	CGameObject(Vec2 Positon) { this->Obj_Position = Positon; }
 
-	virtual void Update(DWORD dt) = 0;
+	virtual void Update(DWORD dt);
 	virtual void Render() = 0;
 
 	virtual Vec2 GetPosition() { return Obj_Position; }
@@ -45,8 +79,32 @@ public:
 		return r;
 	};
 
+    static void SweptAABB(
+            RECT movingObj,
+            float dx,
+            float dy,
+            RECT staticObj,
+            float &t,
+            float &nx,
+            float &ny);
+
+    LPCOLLISIONEVENT SweptAABBEx(LPCGameObject coO);
+    void CalcPotentialCollisions(
+            vector<LPCGameObject> *coObjects,
+            vector<LPCOLLISIONEVENT> &coEvents);
+    void FilterCollision(
+            vector<LPCOLLISIONEVENT> &coEvents,
+            vector<LPCOLLISIONEVENT> &coEventsResult,
+            float &min_tx,
+            float &min_ty,
+            float &nx,
+            float &ny,
+            float &rdx,
+            float &rdy);
+    bool isColliding(RECT thisRect, RECT otherRect);
+
 	~CGameObject() {};
 };
-typedef CGameObject* LPCGameObject;
+
 
 
