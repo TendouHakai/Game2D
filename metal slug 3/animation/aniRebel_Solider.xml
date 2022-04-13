@@ -2,36 +2,36 @@
 <Textures>
 	<Textures gameObjectId= "3000">
 		<Animation aniId="Rebel_Solider_throw_bomb" frameTime="100" name="Jump">
-			<sprite id = "Rebel_Solider_throw_bomb_0" x="57" y="36" w="26" h="37"/>
-			<sprite id = "Rebel_Solider_throw_bomb_1" x="92" y="0" w="27" h="36"/>
-			<sprite id = "Rebel_Solider_throw_bomb_2" x="29" y="36" w="28" h="36"/>
-			<sprite id = "Rebel_Solider_throw_bomb_3" x="83" y="36" w="31" h="37"/>
-			<sprite id = "Rebel_Solider_throw_bomb_4" x="43" y="73" w="35" h="39"/>
-			<sprite id = "Rebel_Solider_throw_bomb_5" x="0" y="112" w="40" h="42"/>
-			<sprite id = "Rebel_Solider_throw_bomb_6" x="78" y="73" w="41" h="39"/>
-			<sprite id = "Rebel_Solider_throw_bomb_7" x="0" y="73" w="43" h="38"/>
-			<sprite id = "Rebel_Solider_throw_bomb_8" x="40" y="112" w="36" h="42"/>
-			<sprite id = "Rebel_Solider_throw_bomb_9" x="76" y="112" w="33" h="42"/>
-			<sprite id = "Rebel_Solider_throw_bomb_10" x="57" y="0" w="35" h="35"/>
-			<sprite id = "Rebel_Solider_throw_bomb_11" x="28" y="0" w="29" h="34"/>
-			<sprite id = "Rebel_Solider_throw_bomb_12" x="0" y="0" w="28" h="33"/>
-			<sprite id = "Rebel_Solider_throw_bomb_13" x="0" y="36" w="29" h="36"/>
+			<sprite id = "Rebel_Solider_throw_bomb_0" />
+			<sprite id = "Rebel_Solider_throw_bomb_1" />
+			<sprite id = "Rebel_Solider_throw_bomb_2" />
+			<sprite id = "Rebel_Solider_throw_bomb_3" />
+			<sprite id = "Rebel_Solider_throw_bomb_4"/>
+			<sprite id = "Rebel_Solider_throw_bomb_5" />
+			<sprite id = "Rebel_Solider_throw_bomb_6" />
+			<sprite id = "Rebel_Solider_throw_bomb_7"/>
+			<sprite id = "Rebel_Solider_throw_bomb_8" />
+			<sprite id = "Rebel_Solider_throw_bomb_9" />
+			<sprite id = "Rebel_Solider_throw_bomb_10"/>
+			<sprite id = "Rebel_Solider_throw_bomb_11" />
+			<sprite id = "Rebel_Solider_throw_bomb_12" />
+			<sprite id = "Rebel_Solider_throw_bomb_13"/>
 		</Animation>
 
 		<Animation aniId="Rebel_Solider_IDLE" frameTime="50" name="dead">
-			<sprite id = "Rebel_Solider_IDLE_0" x="0" y="0" w="33" h="37"/>
-			<sprite id = "Rebel_Solider_IDLE_1" x="33" y="0" w="32" h="36"/>
-			<sprite id = "Rebel_Solider_IDLE_2" x="65" y="0" w="30" h="35"/>
-			<sprite id = "Rebel_Solider_IDLE_3" x="95" y="0" w="28" h="34"/>
-			<sprite id = "Rebel_Solider_IDLE_4" x="123" y="0" w="31" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_5" x="154" y="0" w="30" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_6" x="184" y="0" w="29" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_7" x="213" y="0" w="28" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_8" x="241" y="0" w="34" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_9" x="275" y="0" w="34" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_10" x="309" y="0" w="34" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_11" x="343" y="0" w="34" h="38"/>
-			<sprite id = "Rebel_Solider_IDLE_12" x="377" y="0" w="28" h="38"/>
+			<sprite id = "Rebel_Solider_IDLE_0" />
+			<sprite id = "Rebel_Solider_IDLE_1" />
+			<sprite id = "Rebel_Solider_IDLE_2"/>
+			<sprite id = "Rebel_Solider_IDLE_3" />
+			<sprite id = "Rebel_Solider_IDLE_4" />
+			<sprite id = "Rebel_Solider_IDLE_5" />
+			<sprite id = "Rebel_Solider_IDLE_6" />
+			<sprite id = "Rebel_Solider_IDLE_7" />
+			<sprite id = "Rebel_Solider_IDLE_8" />
+			<sprite id = "Rebel_Solider_IDLE_9" />
+			<sprite id = "Rebel_Solider_IDLE_10" />
+			<sprite id = "Rebel_Solider_IDLE_11" />
+			<sprite id = "Rebel_Solider_IDLE_12" />
 		</Animation>
 		
 		<Animation aniId="Rebel_Solider_drop_down" frameTime="50" name="dead">

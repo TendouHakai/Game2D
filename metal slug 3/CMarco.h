@@ -4,23 +4,24 @@
 //dang su ly phan states
 enum class leg_states {
    stand,
-   run
+   run, 
 };
 
 enum class Body_states {
     IDLE,
     jumping,
-    sitting
+    sitting,
+    looking_up
 };
 
 enum class Weapon_State {
     IDLE,
-    FIRING,
-    BOMMING
+    FIRING
 };
 
 
 #define Marco_Speed 5;
+
 
 class CMarco :
     public CGameObject

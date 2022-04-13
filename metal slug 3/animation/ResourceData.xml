@@ -10,7 +10,19 @@
 			<Texture id="Marco_body_jump" path="animation/Marco/Marco_body_jump.png"/>
 			<Texture id="Marco_leg_run_jump" path="animation/Marco/Marco_leg_run_jump.png"/>
 			<Texture id="Marco_body_run_jump" path="animation/Marco/Marco_body_run_jump.png"/>
-			
+			<Texture id="Marco_Body_melee_attack" path="animation/Marco/Marco_Body_melee_attack.png"/>
+			<Texture id="Marco_Body_shoot_release" path="animation/Marco/Marco_Body_shoot_release.png"/>
+			<Texture id="Marco_Body_shooting" path="animation/Marco/Marco_Body_shooting.png"/>
+			<Texture id="Marco_Body_up" path="animation/Marco/Marco_Body_up.png"/>
+			<Texture id="Marco_Body_up_shooting" path="animation/Marco/Marco_Body_up_shooting.png"/>
+			<Texture id="Marco_Body_up_shooting_release" path="animation/Marco/Marco_Body_up_shooting_release.png"/>
+			<Texture id="Marco_Body_up2" path="animation/Marco/Marco_Body_up2.png"/>
+			<Texture id="Marco_sit_down" path="animation/Marco/Marco_sit_down.png"/>
+			<Texture id="Marco_sitting" path="animation/Marco/Marco_sitting.png"/>
+			<Texture id="Marco_sitting_firing" path="animation/Marco/Marco_sitting_firing.png"/>
+			<Texture id="Marco_sitting_firing_release" path="animation/Marco/Marco_sitting_firing_release.png"/>
+			<Texture id="Marco_sitting_move" path="animation/Marco/Marco_sitting_move.png"/>
+
 			<Texture id="chowmein_walk" path="animation/Chowmein/chowmein_walk.png"/>
 			<Texture id="chowmein_dead" path="animation/Chowmein/chowmein_dead.png"/>
 			<Texture id="chowmein_IDLE" path="animation/Chowmein/chowmein_IDLE.png"/>
