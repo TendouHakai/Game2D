@@ -176,7 +176,7 @@ void CMarco::DrawAnimation()
 				CAnimationManager::GetInstance()->Get("Marco_Body_up2").get()->Render(Obj_Position + Vec2(0, 45), D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(1.5, 0));
 				break;
 			case Weapon_State::FIRING:
-				CAnimationManager::GetInstance()->Get("Marco_Body_shooting").get()->Render(Obj_Position + Vec2(0, 40), D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(-1.5, 0));
+				CAnimationManager::GetInstance()->Get("Marco_Body_up_shooting").get()->Render(Obj_Position + Vec2(0, -3), D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(1.5, 1));
 				break;
 			default:
 				break;
