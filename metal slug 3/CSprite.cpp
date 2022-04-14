@@ -12,7 +12,7 @@ CSprite::CSprite(string id, int left, int top, int width, int height, int xPivot
 	this->texture = texture;
 }
 
-void CSprite::Draw(Vec2 Position, D3DCOLOR overlay)
+void CSprite::Draw(Vec2 Position, D3DCOLOR overlay, bool flag,Vec2 size, Vec2 translate)
 {
 	RECT r;
 	r.left = this->left;
@@ -22,5 +22,5 @@ void CSprite::Draw(Vec2 Position, D3DCOLOR overlay)
 
 	Vec2 New_Position = CCamera::GetInstance()->TransForm(Position);
 
-	CGraphic::GetInstance()->DrawTexture(texture, r, New_Position, overlay);
+	CGraphic::GetInstance()->DrawTexture(texture, r, New_Position, overlay, flag,size, translate);
 }

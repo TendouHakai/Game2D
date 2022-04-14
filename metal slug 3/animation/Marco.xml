@@ -34,25 +34,163 @@
 		<sprite id = "Marco_leg_stand_4" x="93" y="1" w="21" h="16"/>
 	</Textures>
 	
-	<Textures textureId="Marco_Body_run">
-		<sprite id = "Marco_Body_run_0" x="101" y="1" w="32" h="28"/>
-		<sprite id = "Marco_Body_run_1" x="69" y="1" w="30" h="29"/>
-		<sprite id = "Marco_Body_run_2" x="298" y="1" w="28" h="28"/>
-		<sprite id = "Marco_Body_run_3" x="361" y="1" w="27" h="27"/>
-		<sprite id = "Marco_Body_run_4" x="267" y="1" w="29" h="28"/>
-		<sprite id = "Marco_Body_run_5" x="235" y="1" w="30" h="28"/>
-		<sprite id = "Marco_Body_run_6" x="1" y="1" w="32" h="29"/>
-		<sprite id = "Marco_Body_run_7" x="35" y="1" w="32" h="29"/>
-		<sprite id = "Marco_Body_run_8" x="135" y="1" w="32" h="28"/>
-		<sprite id = "Marco_Body_run_9" x="328" y="1" w="31" h="27"/>
-		<sprite id = "Marco_Body_run_10" x="169" y="1" w="31" h="28"/>
-		<sprite id = "Marco_Body_run_11" x="202" y="1" w="31" h="28"/>
+	<Textures textureId="Marco_body_run">
+		<sprite id = "Marco_body_run_0" x="101" y="1" w="32" h="28"/>
+		<sprite id = "Marco_body_run_1" x="69" y="1" w="30" h="29"/>
+		<sprite id = "Marco_body_run_2" x="298" y="1" w="28" h="28"/>
+		<sprite id = "Marco_body_run_3" x="361" y="1" w="27" h="27"/>
+		<sprite id = "Marco_body_run_4" x="267" y="1" w="29" h="28"/>
+		<sprite id = "Marco_body_run_5" x="235" y="1" w="30" h="28"/>
+		<sprite id = "Marco_body_run_6" x="1" y="1" w="32" h="29"/>
+		<sprite id = "Marco_body_run_7" x="35" y="1" w="32" h="29"/>
+		<sprite id = "Marco_body_run_8" x="135" y="1" w="32" h="28"/>
+		<sprite id = "Marco_body_run_9" x="328" y="1" w="31" h="27"/>
+		<sprite id = "Marco_body_run_10" x="169" y="1" w="31" h="28"/>
+		<sprite id = "Marco_body_run_11" x="202" y="1" w="31" h="28"/>
 	</Textures>
 	
-	<Textures textureId="Marco_Body_stand">
-		<sprite id = "Marco_Body_stand_0" x="1" y="1" w="29" h="29"/>
-		<sprite id = "Marco_Body_stand_1" x="34" y="31" w="29" h="29"/>
-		<sprite id = "Marco_Body_stand_2" x="32" y="1" w="30" h="28"/>
-		<sprite id = "Marco_Body_stand_3" x="1" y="32" w="31" h="27"/>
+	<Textures textureId="Marco_body_stand">
+		<sprite id = "Marco_body_stand_0" x="1" y="1" w="29" h="29"/>
+		<sprite id = "Marco_body_stand_1" x="34" y="31" w="29" h="29"/>
+		<sprite id = "Marco_body_stand_2" x="32" y="1" w="30" h="28"/>
+		<sprite id = "Marco_body_stand_3" x="1" y="32" w="31" h="27"/>
+	</Textures>
+
+	<Textures textureId="Marco_leg_jump">
+		<sprite id = "Marco_leg_jump_0" x="47" y="1" w="18" h="25"/>
+		<sprite id = "Marco_leg_jump_1" x="25" y="1" w="20" h="25" />
+		<sprite id = "Marco_leg_jump_2" x="1" y="1" w="22" h="25" />
+		<sprite id = "Marco_leg_jump_3" x="67" y="1" w="21" h="24" />
+	</Textures>
+	
+	<Textures textureId="Marco_body_jump">
+		<sprite id = "Marco_body_jump_4" x="1" y="1" w="29" h="26"/>
+		<sprite id = "Marco_body_jump_5" x="1" y="29" w="29" h="25"/>
+		<sprite id = "Marco_body_jump_6" x="1" y="56" w="29" h="24"/>
+		<sprite id = "Marco_body_jump_7" x="1" y="82" w="29" h="23"/>
+		<sprite id = "Marco_body_jump_8" x="1" y="132" w="29" h="22"/>
+		<sprite id = "Marco_body_jump_9" x="1" y="107" w="29" h="23"/>
+	</Textures>
+
+	<Textures textureId="Marco_leg_run_jump">
+		<sprite id = "Marco_leg_run_jump_0" x="36" y="1" w="27" h="22"/>
+		<sprite id = "Marco_leg_run_jump_1" x="1" y="21" w="29" h="20"/>
+		<sprite id = "Marco_leg_run_jump_2" x="1" y="1" w="33" h="18"/>
+		<sprite id = "Marco_leg_run_jump_3" x="29" y="44" w="30" h="16"/>
+		<sprite id = "Marco_leg_run_jump_4" x="32" y="25" w="30" h="17"/>
+		<sprite id = "Marco_leg_run_jump_5" x="1" y="43" w="26" h="18"/>
+	</Textures>
+	
+	<Textures textureId="Marco_body_run_jump">
+		<sprite id = "Marco_body_run_jump_0" x="20" y="0" w="23" h="32"/>
+		<sprite id = "Marco_body_run_jump_1" x="0" y="64" w="27" h="33"/>
+		<sprite id = "Marco_body_run_jump_2" x="0" y="32" w="32" h="32"/>
+		<sprite id = "Marco_body_run_jump_3" x="27" y="64" w="27" h="35"/>
+		<sprite id = "Marco_body_run_jump_4" x="32" y="32" w="23" h="32"/>
+		<sprite id = "Marco_body_run_jump_5" x="0" y="0" w="20" h="29"/>
+	</Textures>
+
+	<!-- $TexturePacker:SmartUpdate:01bed4326d6ea96c486e3f199c2c3ddb:58be813056e39a0e47ac9c2d13eb3ef8:42a1b55a462c3566dde9b284b2844f5f$ -->
+
+	<Textures textureId="Marco_Body_melee_attack">
+		<sprite id = "Marco_Body_melee_attack_0" x="0" y="0" w="24" h="29"/>
+		<sprite id = "Marco_Body_melee_attack_1" x="24" y="0" w="23" h="26"/>
+		<sprite id = "Marco_Body_melee_attack_2" x="47" y="0" w="26" h="27"/>
+		<sprite id = "Marco_Body_melee_attack_3" x="73" y="0" w="41" h="23"/>
+		<sprite id = "Marco_Body_melee_attack_4" x="114" y="0" w="48" h="28"/>
+		<sprite id = "Marco_Body_melee_attack_5" x="162" y="0" w="48" h="29"/>
+	</Textures>
+
+	<Textures textureId="Marco_Body_shoot_release">
+		<sprite id = "Marco_Body_shoot_release_0" x="0" y="0" w="37" h="23"/>
+		<sprite id = "Marco_Body_shoot_release_1" x="37" y="0" w="34" h="26"/>
+		<sprite id = "Marco_Body_shoot_release_2" x="71" y="0" w="33" h="27"/>
+		<sprite id = "Marco_Body_shoot_release_3" x="104" y="0" w="32" h="27"/>
+	</Textures>
+
+	<Textures textureId="Marco_Body_shooting">
+		<sprite id = "Marco_Body_shooting_0" x="0" y="0" w="50" h="23"/>
+		<sprite id = "Marco_Body_shooting_1" x="50" y="0" w="51" h="23"/>
+		<sprite id = "Marco_Body_shooting_2" x="101" y="0" w="52" h="23"/>
+		<sprite id = "Marco_Body_shooting_3" x="153" y="0" w="37" h="23"/>
+		<sprite id = "Marco_Body_shooting_4" x="190" y="0" w="37" h="24"/>
+		<sprite id = "Marco_Body_shooting_5" x="227" y="0" w="37" h="25"/>
+	</Textures>
+	
+	<Textures textureId="Marco_Body_up">
+		<sprite id = "Marco_Body_up_0" x="0" y="0" w="33" h="25"/>
+		<sprite id = "Marco_Body_up_1" x="33" y="0" w="33" h="25"/>
+		<sprite id = "Marco_Body_up_2" x="66" y="0" w="32" h="24"/>
+		<sprite id = "Marco_Body_up_3" x="98" y="0" w="27" h="32"/>
+	</Textures>
+	
+	<Textures textureId="Marco_Body_up_shooting">
+		<sprite id = "Marco_Body_up_shooting_0" x="0" y="79" w="22" h="64"/>
+		<sprite id = "Marco_Body_up_shooting_1" x="22" y="79" w="22" h="64"/>
+		<sprite id = "Marco_Body_up_shooting_2" x="0" y="39" w="22" h="40"/>
+		<sprite id = "Marco_Body_up_shooting_3" x="25" y="0" w="22" h="39"/>
+		<sprite id = "Marco_Body_up_shooting_4" x="0" y="0" w="25" h="38"/>
+		<sprite id = "Marco_Body_up_shooting_5" x="22" y="39" w="25" h="40"/>
+	</Textures>
+
+	<Textures textureId="Marco_Body_up_shooting_release">
+		<sprite id = "Marco_Body_up_shooting_release_0" x="0" y="0" w="24" h="41"/>
+		<sprite id = "Marco_Body_up_shooting_release_1" x="0" y="41" w="26" h="40"/>
+		<sprite id = "Marco_Body_up_shooting_release_2" x="0" y="81" w="26" h="37"/>
+		<sprite id = "Marco_Body_up_shooting_release_3" x="0" y="118" w="29" h="27"/>
+	</Textures>
+
+	<Textures textureId="Marco_Body_up2">
+		<sprite id = "Marco_Body_up2_0" x="0" y="0" w="29" h="26"/>
+		<sprite id = "Marco_Body_up2_1" x="29" y="0" w="29" h="26"/>
+		<sprite id = "Marco_Body_up2_2" x="58" y="0" w="29" h="26"/>
+		<sprite id = "Marco_Body_up2_3" x="87" y="0" w="29" h="26"/>
+	</Textures>
+
+	<Textures textureId="Marco_sit_down">
+		<sprite id = "Marco_sit_down_0" x="0" y="0" w="29" h="39"/>
+		<sprite id = "Marco_sit_down_1" x="0" y="39" w="29" h="41"/>
+		<sprite id = "Marco_sit_down_2" x="0" y="80" w="29" h="38"/>
+	</Textures>
+
+	<Textures textureId="Marco_sitting">
+		<sprite id = "Marco_sitting_0" x="0" y="0" w="32" h="26"/>
+		<sprite id = "Marco_sitting_1" x="32" y="0" w="32" h="26"/>
+		<sprite id = "Marco_sitting_2" x="64" y="0" w="31" h="26"/>
+		<sprite id = "Marco_sitting_3" x="95" y="0" w="32" h="26"/>
+	</Textures>
+
+	<Textures textureId="Marco_sitting_firing">
+		<sprite id = "Marco_sitting_firing_0" x="0" y="0" w="38" h="27"/>
+		<sprite id = "Marco_sitting_firing_1" x="38" y="0" w="50" h="27"/>
+		<sprite id = "Marco_sitting_firing_2" x="88" y="0" w="51" h="27"/>
+		<sprite id = "Marco_sitting_firing_3" x="139" y="0" w="52" h="27"/>
+		<sprite id = "Marco_sitting_firing_4" x="191" y="0" w="37" h="27"/>
+		<sprite id = "Marco_sitting_firing_5" x="228" y="0" w="37" h="28"/>
+	</Textures>
+
+	<Textures textureId="Marco_sitting_firing_release">
+		<sprite id = "Marco_sitting_firing_release_0" x="0" y="0" w="37" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_1" x="37" y="0" w="34" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_2" x="71" y="0" w="33" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_3" x="104" y="0" w="32" h="28"/>
+		<sprite id = "Marco_sitting_firing_release_4" x="136" y="0" w="31" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_5" x="167" y="0" w="31" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_6" x="198" y="0" w="31" h="27"/>
+		<sprite id = "Marco_sitting_firing_release_7" x="229" y="0" w="37" h="29"/>
+	</Textures>
+
+	<Textures textureId="Marco_sitting_move">
+		<sprite id = "Marco_sitting_move_0" x="0" y="0" w="34" h="24"/>
+		<sprite id = "Marco_sitting_move_1" x="34" y="0" w="33" h="24"/>
+		<sprite id = "Marco_sitting_move_2" x="67" y="0" w="33" h="24"/>
+		<sprite id = "Marco_sitting_move_3" x="100" y="0" w="33" h="24"/>
+		<sprite id = "Marco_sitting_move_4" x="133" y="0" w="34" h="24"/>
+		<sprite id = "Marco_sitting_move_5" x="167" y="0" w="34" h="24"/>
+		<sprite id = "Marco_sitting_move_6" x="201" y="0" w="34" h="24"/>
+		<sprite id = "Marco_sitting_move_7" x="235" y="0" w="34" h="24"/>
+		<sprite id = "Marco_sitting_move_8" x="269" y="0" w="35" h="24"/>
+		<sprite id = "Marco_sitting_move_9" x="304" y="0" w="35" h="24"/>
+		<sprite id = "Marco_sitting_move_10" x="339" y="0" w="35" h="24"/>
 	</Textures>
 </Textures>

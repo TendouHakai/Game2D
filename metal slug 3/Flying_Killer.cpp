@@ -25,10 +25,10 @@ void Flying_Killer::DrawAnimation()
 	switch (states)
 	{
 	case Flying_killer_states::jump:
-		CAnimationManager::GetInstance()->Get("ani_Flying_killer_jump").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Flying_killer_jump").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0, 0));
 		break;
 	case Flying_killer_states::attack:
-		CAnimationManager::GetInstance()->Get("ani_Flying_killer_attack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255));
+		CAnimationManager::GetInstance()->Get("ani_Flying_killer_attack").get()->Render(Obj_Position, D3DCOLOR_XRGB(255, 255, 255), flag, Obj_Size, Vec2(0,0));
 		break;
 	default:
 		break;

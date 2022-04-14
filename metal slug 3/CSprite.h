@@ -24,7 +24,7 @@ public:
 public:
 	CSprite(string id, int left, int top, int width, int height, int xPivot, int yPivot, LPDIRECT3DTEXTURE9 texture);
 
-	virtual void Draw(Vec2 Position, D3DCOLOR overlay);
+	virtual void Draw(Vec2 Position, D3DCOLOR overlay, bool flag,Vec2 size, Vec2 translate);
 };
 
 typedef CSprite* Sprite;

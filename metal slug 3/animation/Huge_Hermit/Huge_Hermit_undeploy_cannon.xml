@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d42c737f8843be597e57da0938921d36:21ece0aa26faa71f714bb8a5e701868a:cef8881bc6239cd48ac251f3da1d094e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Huge_Hermit_undeploy_cannon.png" width="460" height="1237">
+    <sprite n="0.png" x="0" y="0" w="230" h="206"/>
+    <sprite n="1.png" x="230" y="0" w="230" h="207"/>
+    <sprite n="2.png" x="0" y="207" w="230" h="206"/>
+    <sprite n="3.png" x="230" y="207" w="230" h="206"/>
+    <sprite n="4.png" x="0" y="413" w="230" h="206"/>
+    <sprite n="5.png" x="230" y="413" w="230" h="206"/>
+    <sprite n="6.png" x="0" y="619" w="230" h="206"/>
+    <sprite n="7.png" x="230" y="619" w="230" h="206"/>
+    <sprite n="8.png" x="0" y="825" w="230" h="206"/>
+    <sprite n="9.png" x="230" y="825" w="230" h="206"/>
+    <sprite n="10.png" x="0" y="1031" w="230" h="206"/>
+    <sprite n="11.png" x="230" y="1031" w="230" h="206"/>
+</TextureAtlas>

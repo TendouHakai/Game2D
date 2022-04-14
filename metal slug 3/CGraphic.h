@@ -32,7 +32,8 @@ public:
 	PDIRECT3DSURFACE9 Loadsurface(LPSTR filePath, D3DCOLOR transcolor);
 	void DrawSurface(LPDIRECT3DSURFACE9 surface, RECT* rectSource, RECT* rectDestination);
 	void DrawTexture(LPDIRECT3DTEXTURE9 texture, D3DXVECTOR2 postion, D3DCOLOR color);
-	void DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, D3DXVECTOR2 postion, D3DCOLOR color);
+	//void DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, D3DXVECTOR2 postion, D3DCOLOR color, bool flag);
+	void DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, D3DXVECTOR2 postion, D3DCOLOR color, bool flag,Vec2 size, Vec2 translate);
 
 	bool Collision(RECT rect1, RECT rect2);
 	LPDIRECT3DDEVICE9 GetDevice();
