@@ -16,6 +16,11 @@ protected:
 	Vec2 Obj_Size;
 	Vec2 Obj_speed;
 	bool flag = true;
+	
+	float dt;
+    	float dx;	// dx = vx*dt
+    	float dy;	// dy = vy*dt
+	
 	int nx;
 
 	string state;
