@@ -1,8 +1,10 @@
 #include "CMarco.h"
 
-void CMarco::Update(DWORD dt)
+void CMarco::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
+	CGameObject::Update(dt);
 	ProcessKeyboard();
+
 	this->Obj_speed.y -= 1;
 	Vec2 speed = Obj_speed;
 	if (body == Body_states::sitting)
@@ -35,7 +37,6 @@ void CMarco::Update(DWORD dt)
 	{
 		leg = leg_states::stand;
 	}
-
 }
 
 void CMarco::Render()

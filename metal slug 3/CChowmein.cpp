@@ -1,6 +1,6 @@
 #include "CChowmein.h"
 
-void CChowmein::Update(DWORD dt)
+void CChowmein::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
 }
 

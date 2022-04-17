@@ -28,7 +28,7 @@ public:
         Obj_Size = Vec2(33, 33);
     };
 
-    void Update(DWORD dt);
+    void Update(DWORD dt, vector<LPCGameObject>* coObjects);
     void Render();
     void DrawAnimation();
 };

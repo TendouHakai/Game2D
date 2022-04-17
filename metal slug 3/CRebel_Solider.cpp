@@ -1,6 +1,6 @@
 #include "CRebel_Solider.h"
 
-void CRebel_Solider::Update(DWORD dt)
+void CRebel_Solider::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
 }
 

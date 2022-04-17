@@ -34,7 +34,7 @@ public :
     CMarco() : CGameObject() {};
     CMarco(Vec2 position) : CGameObject(position) { Obj_speed.x = Obj_speed.y = 0; Obj_Size = Vec2(20, 45); };
 
-    void Update(DWORD dt);
+    void Update(DWORD dt, vector<LPCGameObject>* coObjects);
     void Render();
     void DrawAnimation();
 

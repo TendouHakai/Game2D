@@ -1,6 +1,6 @@
 #include "CLocust.h"
 
-void CLocust::Update(DWORD dt)
+void CLocust::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
 }
 

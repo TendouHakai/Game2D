@@ -1,1 +1,2 @@
-F:\metal slug 3\Debug\Homework.exe
+E:\Code\metal slug 3\Debug\Homework.exe
+E:\GITHUB\metal slug 3\Debug\Homework.exe

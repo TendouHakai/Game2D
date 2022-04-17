@@ -1,6 +1,6 @@
 #include "Flying_Killer.h"
 
-void Flying_Killer::Update(DWORD dt)
+void Flying_Killer::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
 	DWORD now = GetTickCount64();
 	/*if (states == Flying_killer_states::jump)

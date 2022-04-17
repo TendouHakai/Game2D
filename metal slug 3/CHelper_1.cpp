@@ -1,6 +1,6 @@
 #include "CHelper_1.h"
 
-void CHelper_1::Update(DWORD dt)
+void CHelper_1::Update(DWORD dt, vector<LPCGameObject>* coObjects)
 {
 }
 

@@ -26,7 +26,7 @@ public:
     CHuge_Hermit() : CGameObject() {};
     CHuge_Hermit(Vec2 position) : CGameObject(position) { Obj_speed.x = Obj_speed.y = 0;  Obj_Size = Vec2(230, 206); };
 
-    void Update(DWORD dt);
+    void Update(DWORD dt, vector<LPCGameObject>* coObjects);
     void Render();
     void DrawAnimation();
 

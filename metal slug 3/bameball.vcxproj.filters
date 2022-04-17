@@ -34,14 +34,14 @@
     <Filter Include="FrameWork\GameGraphic">
       <UniqueIdentifier>{e0281e1a-ad75-4740-b0eb-5326cb1b1d2b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="FrameWork\GameWorld">
-      <UniqueIdentifier>{7ec6db96-deae-4081-ba25-027e18b7340c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="FrameWork\InputDevice">
       <UniqueIdentifier>{dd09733a-67e9-49ef-a26c-dce812bf8263}</UniqueIdentifier>
     </Filter>
     <Filter Include="FrameWork\tinyXML">
       <UniqueIdentifier>{7a666231-44ed-4695-91dd-0fbce7ff8f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\GameWorld">
+      <UniqueIdentifier>{7ec6db96-deae-4081-ba25-027e18b7340c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -76,7 +76,7 @@
       <Filter>FrameWork\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="CCamera.cpp">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClCompile>
     <ClCompile Include="CKeyBoard.cpp">
       <Filter>FrameWork\InputDevice</Filter>
@@ -127,10 +127,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CCellgrib.cpp">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClCompile>
     <ClCompile Include="Cgrib.cpp">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -174,7 +174,7 @@
       <Filter>FrameWork\GameObject</Filter>
     </ClInclude>
     <ClInclude Include="CCamera.h">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClInclude>
     <ClInclude Include="CKeyBoard.h">
       <Filter>FrameWork\InputDevice</Filter>
@@ -216,10 +216,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CCellgrib.h">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClInclude>
     <ClInclude Include="Cgrib.h">
-      <Filter>FrameWork\GameWorld</Filter>
+      <Filter>FrameWork\GameObject\GameWorld</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

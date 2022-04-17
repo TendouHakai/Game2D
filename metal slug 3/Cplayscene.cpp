@@ -101,8 +101,15 @@ void Cplayscene::Update(DWORD dt)
 	listGameObjectInCamera.clear();
 	listGameObjectInCamera = grib->getlistGameObjectsInCamera();
 	for (auto x : listGameObjectInCamera)
-		x.second->Update(dt);
-	player->Update(dt);
+		x.second->Update(dt, nullptr);
+
+	//Convert objects in current cell to vector
+	vector<LPCGameObject> objectInCell;
+
+	for (const auto& g : listGameObjectInCamera)
+		objectInCell.push_back(g.second);
+
+	player->Update(dt, &objectInCell);
 	CCamera::GetInstance()->SetCamFollow(player->GetPosition(), wMap, hMap);
 }
 

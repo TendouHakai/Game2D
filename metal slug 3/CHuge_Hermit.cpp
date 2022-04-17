@@ -1,5 +1,9 @@
 #include "CHuge_Hermit.h"
 
+void CHuge_Hermit::Update(DWORD dt, vector<LPCGameObject>* coObjects)
+{
+}
+
 void CHuge_Hermit::Render()
 {
 	DrawAnimation();

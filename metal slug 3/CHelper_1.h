@@ -16,7 +16,7 @@ public:
     CHelper_1() : CGameObject() {};
     CHelper_1(Vec2 position) : CGameObject(position) { Obj_speed.x = Obj_speed.y = 0; Obj_Size = Vec2(33, 38); };
 
-    void Update(DWORD dt);
+    void Update(DWORD dt, vector<LPCGameObject>* coObjects);
     void Render();
     void DrawAnimation();
 
