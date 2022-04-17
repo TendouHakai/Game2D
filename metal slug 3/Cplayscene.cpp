@@ -74,44 +74,44 @@ void Cplayscene::Load()
 		//
 		switch (section)
 		{
-		//case SCENE_SECTION_ASSETS: _ParseSection_ASSETS(line); break;
+			//case SCENE_SECTION_ASSETS: _ParseSection_ASSETS(line); break;
 		case SCENE_SECTION_OBJECTS: _ParseSection_OBJECTS(line); break;
 		case SCENE_SECTION_MAP: _ParseSection_MAP(line); break;
 		}
 	}
 	f.close();
-	tree = new CQuadtree();
-	tree->setRootNode(GameObjects,wMap, hMap);
-	tree->Build(tree->rootNode);
+	grib = new Cgrib();
+	grib->Build(GameObjects, wMap, hMap);
+	DebugOut(L"Load scene is completed\n");
 }
 
 void Cplayscene::Clear()
 {
 	if (map != NULL)
 		map->Release();
-	if (tree != NULL)
-		tree = NULL;
+	if (grib != NULL)
+	{
+		grib->Release();
+	}
 	GameObjects.clear();
-
 }
 
 void Cplayscene::Update(DWORD dt)
 {
-	tree->listGameObjectInCamera.clear();
-	tree->getListGameObjectInCamera(tree->rootNode);
-	for (auto x : tree->listGameObjectInCamera)
-	{
+	listGameObjectInCamera.clear();
+	listGameObjectInCamera = grib->getlistGameObjectsInCamera();
+	for (auto x : listGameObjectInCamera)
 		x.second->Update(dt);
-	}
 	player->Update(dt);
 	CCamera::GetInstance()->SetCamFollow(player->GetPosition(), wMap, hMap);
 }
 
 void Cplayscene::Render()
 {
-	for (auto x : tree->listGameObjectInCamera)
+	for (auto x : listGameObjectInCamera)
 	{
 		x.second->Render();
+		DebugOut(L"Object %d\n", x.first);
 	}
 	player->Render();
 	RECT rect;

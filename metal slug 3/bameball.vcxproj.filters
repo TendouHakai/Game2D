@@ -111,12 +111,6 @@
     <ClCompile Include="Cplayscene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CQuadtree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CQuadnode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -131,6 +125,12 @@
     </ClCompile>
     <ClCompile Include="CBlock.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCellgrib.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Cgrib.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -200,12 +200,6 @@
     <ClInclude Include="Cplayscene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CQuadtree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CQuadnode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -220,6 +214,12 @@
     </ClInclude>
     <ClInclude Include="CBlock.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCellgrib.h">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Cgrib.h">
+      <Filter>FrameWork\GameWorld</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
