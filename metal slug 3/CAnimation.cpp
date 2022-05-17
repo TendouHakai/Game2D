@@ -24,10 +24,21 @@ void CAnimation::AddFrame(Sprite sprite, DWORD frameTime)
 {
 	frameTime = frameTime == 0 ? defaultFrameTime : frameTime;
 	CAnimationFrame* frame = new CAnimationFrame(sprite, frameTime);
+	totalAniTime += frameTime;
 	this->frames.push_back(frame);
 }
 
-void CAnimation::Render(Vec2 vec2,D3DCOLOR overlay, bool flag,Vec2 size, Vec2 translate)
+void CAnimation::Render(Vec2 vec2,D3DCOLOR overlay, bool flag,Vec2 size, Vec2 translate, DWORD dt)
+{
+	
+	int currentFrame2 = dt / frames[currentFrame]->GetTime();
+
+	currentFrame2 = currentFrame2 % frames.size();
+
+	frames[currentFrame2]->GetSprite()->Draw(vec2, overlay,flag,size, translate);
+}
+
+void CAnimation::Render(Vec2 vec2, D3DCOLOR overlay, bool flag, Vec2 size, Vec2 translate)
 {
 	DWORD now = GetTickCount64();
 
@@ -46,8 +57,9 @@ void CAnimation::Render(Vec2 vec2,D3DCOLOR overlay, bool flag,Vec2 size, Vec2 tr
 			if (currentFrame == frames.size()) currentFrame = 0;
 		}
 	}
-	frames[currentFrame]->GetSprite()->Draw(vec2, overlay,flag,size, translate);
+	frames[currentFrame]->GetSprite()->Draw(vec2, overlay, flag, size, translate);
 }
+
 
 CAnimation::~CAnimation()
 {

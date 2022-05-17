@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Textures>
-	<Textures gameObjectId= "1000">
+	<Textures gameObjectId= "1">
 		<Animation aniId="ani_chowmein_walk" frameTime="100" name="walk">
 			<sprite id= "sprite_chowmein_walk_0" />
 			<sprite id= "sprite_chowmein_walk_1"/>
@@ -20,7 +20,7 @@
 			<sprite id= "chowmein_IDLE_6"/>
 		</Animation>
 		
-		<Animation aniId="ani_chowmein_dead" frameTime="100" name="dead">
+		<Animation aniId="ani_chowmein_dead" frameTime="110" name="dead">
 			<sprite id= "chowmein_dead_0" />
 			<sprite id= "chowmein_dead_1" />
 			<sprite id= "chowmein_dead_2" />
@@ -74,5 +74,13 @@
 			<sprite id= "chowmein_range_attack_11"/>
 			<sprite id= "chowmein_range_attack_12" />
 		</Animation>
+		<Animation aniId="Chowmein_Buble" frameTime="100" name="IDLE">
+			<sprite id = "Chowmein_Buble_0" x="0" y="0" w="16" h="16"/>
+			<sprite id = "Chowmein_Buble_1" x="16" y="0" w="16" h="16"/>
+			<sprite id = "Chowmein_Buble_2" x="32" y="0" w="17" h="16"/>
+			<sprite id = "Chowmein_Buble_3" x="49" y="0" w="17" h="16"/>
+			<sprite id = "Chowmein_Buble_4" x="66" y="0" w="17" h="16"/>
+		</Animation>
+
 	</Textures>
 </Textures>

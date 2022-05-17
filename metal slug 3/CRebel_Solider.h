@@ -1,14 +1,6 @@
 #pragma once
 #include "GameObject.h"
 
-enum class CRebel_Solider_states
-{
-    IDLE,
-    Drop_down,
-    Dead_drop_down,
-    Dead, 
-    Throw_bomb
-};
 
 class CRebel_Solider :
     public CGameObject
@@ -20,7 +12,7 @@ public:
     CRebel_Solider(Vec2 position) : CGameObject(position)
     {
         Obj_speed.x = Obj_speed.y = 0;
-        Obj_Size = Vec2(73, 50);
+        Obj_Size = Vec2(31*2, 38*2);
     };
 
     void Update(DWORD dt, vector<LPCGameObject>* coObjects);

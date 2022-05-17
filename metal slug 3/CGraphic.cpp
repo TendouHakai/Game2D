@@ -117,17 +117,17 @@ void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, Vec2 postion, D3DCOLOR co
 	this->d3dxSprite->Draw(texture, NULL, NULL, &p, color);
 }
 
-void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, Vec2 postion, D3DCOLOR color, bool flag, Vec2 size,Vec2 translate)
+void CGraphic::DrawTexture(LPDIRECT3DTEXTURE9 texture, RECT source, Vec2 postion, D3DCOLOR color, bool isLeftSize, Vec2 size,Vec2 translate)
 {
 	D3DXMATRIX matScale;
 	D3DXMATRIX oldMatrix;
 	d3dxSprite->GetTransform(&oldMatrix);
 	D3DXMatrixScaling(&matScale, 2.0f, 2.0f, .0f);
-	D3DXVECTOR3 p(postion.x - size.x/2 - translate.x , postion.y, .0f);
-	if (flag)
+	D3DXVECTOR3 p(postion.x - translate.x , postion.y, .0f);
+	if (isLeftSize)
 	{
 		D3DXMatrixScaling(&matScale, -2.0f, 2.0f, .0f);
-		p.x = -p.x - size.x - 2*translate.x;
+		p.x = -p.x - size.x/2 - 2*translate.x;
 	}
 	d3dxSprite->SetTransform(&matScale);
 	if (translate.y !=0)

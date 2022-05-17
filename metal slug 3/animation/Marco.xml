@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Textures>
+
+	<Textures textureId="block">
+		<sprite id = "block" x="0" y="0" w="16" h="16"/>
+	</Textures>
+
+	<Textures textureId="stair">
+		<sprite id = "stair" x="0" y="0" w="16" h="100"/>
+	</Textures>
+	<Textures textureId="bullet">
+		<sprite id = "bullet" x="0" y="0" w="6" h="6"/>
+	</Textures>
+
+	<Textures textureId="Marco_dead">
+		<sprite id = "Marco_dead_0" x="30" y="184" w="28" h="39"/>
+		<sprite id = "Marco_dead_1" x="0" y="223" w="30" h="39"/>
+		<sprite id = "Marco_dead_2" x="30" y="223" w="30" h="39"/>
+		<sprite id = "Marco_dead_3" x="0" y="262" w="30" h="39"/>
+		<sprite id = "Marco_dead_4" x="30" y="262" w="29" h="39"/>
+		<sprite id = "Marco_dead_5" x="0" y="184" w="30" h="38"/>
+		<sprite id = "Marco_dead_6" x="27" y="148" w="31" h="36"/>
+		<sprite id = "Marco_dead_7" x="0" y="148" w="27" h="35"/>
+		<sprite id = "Marco_dead_8" x="0" y="114" w="26" h="33"/>
+		<sprite id = "Marco_dead_9" x="26" y="114" w="25" h="34"/>
+		<sprite id = "Marco_dead_10" x="22" y="82" w="23" h="32"/>
+		<sprite id = "Marco_dead_11" x="0" y="82" w="22" h="30"/>
+		<sprite id = "Marco_dead_12" x="41" y="53" w="20" h="29"/>
+		<sprite id = "Marco_dead_13" x="21" y="53" w="20" h="27"/>
+		<sprite id = "Marco_dead_14" x="0" y="53" w="21" h="25"/>
+		<sprite id = "Marco_dead_15" x="33" y="32" w="25" h="21"/>
+		<sprite id = "Marco_dead_16" x="0" y="0" w="29" h="16"/>
+		<sprite id = "Marco_dead_17" x="0" y="32" w="33" h="17"/>
+		<sprite id = "Marco_dead_18" x="0" y="16" w="37" h="16"/>
+	</Textures>
+
+
+
 	<Textures textureId="Marco_leg_run">
 		<sprite id = "Marco_leg_run_0" x="19" y="19" w="21" h="20"/>
 		<sprite id = "Marco_leg_run_1" x="60" y="21" w="28" h="20"/>
@@ -25,6 +61,7 @@
 		<sprite id = "Marco_leg_run_20" x="1" y="19" w="16" h="19"/>
 		<sprite id = "Marco_leg_run_21" x="110" y="1" w="15" h="18"/>
 	</Textures>
+	
 	
 	<Textures textureId="Marco_leg_stand">
 		<sprite id = "Marco_leg_stand_0" x="1" y="1" w="21" h="16"/>

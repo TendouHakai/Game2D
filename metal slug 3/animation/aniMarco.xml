@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Textures>
-	<Textures gameObjectId= "0000">
+	<Textures gameObjectId= "0">
 		<Animation aniId="Marco_leg_run" frameTime="100" name="run">
 			<sprite id = "Marco_leg_run_0" x="19" y="19" w="21" h="20"/>
 			<sprite id = "Marco_leg_run_1" x="60" y="21" w="28" h="20"/>
@@ -25,6 +25,39 @@
 			<sprite id = "Marco_leg_run_19" x="90" y="1" w="18" h="18"/>
 			<sprite id = "Marco_leg_run_20" x="1" y="19" w="16" h="19"/>
 			<sprite id = "Marco_leg_run_21" x="110" y="1" w="15" h="18"/>
+		</Animation>
+
+		<Animation aniId="block" frameTime="100" name="run">
+			<sprite id = "block" x="110" y="1" w="15" h="18"/>
+		</Animation>
+
+		<Animation aniId="stair" frameTime="100" name="run">
+			<sprite id = "stair"/>
+		</Animation>
+		
+		<Animation aniId="bullet" frameTime="100" name="run">
+			<sprite id = "bullet"/>
+		</Animation>
+		<Animation aniId="Marco_dead" frameTime="100" name="run">
+			<sprite id = "Marco_dead_0" x="30" y="184" w="28" h="39"/>
+			<sprite id = "Marco_dead_1" x="0" y="223" w="30" h="39"/>
+			<sprite id = "Marco_dead_2" x="30" y="223" w="30" h="39"/>
+			<sprite id = "Marco_dead_3" x="0" y="262" w="30" h="39"/>
+			<sprite id = "Marco_dead_4" x="30" y="262" w="29" h="39"/>
+			<sprite id = "Marco_dead_5" x="0" y="184" w="30" h="38"/>
+			<sprite id = "Marco_dead_6" x="27" y="148" w="31" h="36"/>
+			<sprite id = "Marco_dead_7" x="0" y="148" w="27" h="35"/>
+			<sprite id = "Marco_dead_8" x="0" y="114" w="26" h="33"/>
+			<sprite id = "Marco_dead_9" x="26" y="114" w="25" h="34"/>
+			<sprite id = "Marco_dead_10" x="22" y="82" w="23" h="32"/>
+			<sprite id = "Marco_dead_11" x="0" y="82" w="22" h="30"/>
+			<sprite id = "Marco_dead_12" x="41" y="53" w="20" h="29"/>
+			<sprite id = "Marco_dead_13" x="21" y="53" w="20" h="27"/>
+			<sprite id = "Marco_dead_14" x="0" y="53" w="21" h="25"/>
+			<sprite id = "Marco_dead_15" x="33" y="32" w="25" h="21"/>
+			<sprite id = "Marco_dead_16" x="0" y="0" w="29" h="16"/>
+			<sprite id = "Marco_dead_17" x="0" y="32" w="33" h="17"/>
+			<sprite id = "Marco_dead_18" x="0" y="16" w="37" h="16"/>
 		</Animation>
 
 		<Animation aniId="Marco_leg_stand" frameTime="100" name="drop_items">
@@ -110,7 +143,7 @@
 			<sprite id = "Marco_Body_shoot_release_3" x="104" y="0" w="32" h="27"/>
 		</Animation>
 
-		<Animation aniId="Marco_Body_shooting" frameTime="50" name="release">
+		<Animation aniId="Marco_Body_shooting" frameTime="40" name="release">
 			<sprite id = "Marco_Body_shooting_0" x="0" y="0" w="50" h="23"/>
 			<sprite id = "Marco_Body_shooting_1" x="50" y="0" w="51" h="23"/>
 			<sprite id = "Marco_Body_shooting_2" x="101" y="0" w="52" h="23"/>
@@ -126,7 +159,7 @@
 			<sprite id = "Marco_Body_up_3" x="98" y="0" w="27" h="32"/>
 		</Animation>
 
-		<Animation aniId="Marco_Body_up_shooting" frameTime="50" name="release">
+		<Animation aniId="Marco_Body_up_shooting" frameTime="40" name="release">
 			<sprite id = "Marco_Body_up_shooting_0" x="0" y="79" w="22" h="64"/>
 			<sprite id = "Marco_Body_up_shooting_1" x="22" y="79" w="22" h="64"/>
 			<sprite id = "Marco_Body_up_shooting_2" x="0" y="39" w="22" h="64"/>
@@ -162,7 +195,7 @@
 			<sprite id = "Marco_sitting_3" x="95" y="0" w="32" h="26"/>
 		</Animation>
 		
-		<Animation aniId="Marco_sitting_firing" frameTime="50" name="release">
+		<Animation aniId="Marco_sitting_firing" frameTime="40" name="release">
 			<sprite id = "Marco_sitting_firing_0" x="0" y="0" w="38" h="27"/>
 			<sprite id = "Marco_sitting_firing_1" x="38" y="0" w="50" h="27"/>
 			<sprite id = "Marco_sitting_firing_2" x="88" y="0" w="51" h="27"/>

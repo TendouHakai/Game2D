@@ -14,6 +14,7 @@ public:
 	}
 	CCellgrib(unordered_map<int, LPCGameObject> listGameObjects)
 	{
+		listGameObjects.clear();
 		this->listGameObjects = listGameObjects;
 	}
 	void addGameObject(int ID, LPCGameObject GameObject)

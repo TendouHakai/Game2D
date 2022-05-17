@@ -43,13 +43,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -153,25 +153,37 @@
     <ClCompile Include="CBlock.cpp" />
     <ClCompile Include="CCamera.cpp" />
     <ClCompile Include="CCellgrib.cpp" />
+    <ClCompile Include="CChangeCam.cpp" />
     <ClCompile Include="CChowmein.cpp" />
+    <ClCompile Include="CChowmeinBuble.cpp" />
     <ClCompile Include="CGame.cpp" />
+    <ClCompile Include="CGameMap.cpp" />
     <ClCompile Include="CGraphic.cpp" />
     <ClCompile Include="Cgrib.cpp" />
+    <ClCompile Include="CGunBullet.cpp" />
     <ClCompile Include="CHelper_1.cpp" />
     <ClCompile Include="CHuge_Hermit.cpp" />
+    <ClCompile Include="CIntroScene.cpp" />
     <ClCompile Include="CKeyBoard.cpp" />
+    <ClCompile Include="CLabel.cpp" />
     <ClCompile Include="CLocust.cpp" />
     <ClCompile Include="CMarco.cpp" />
+    <ClCompile Include="COhumein_Conga.cpp" />
+    <ClCompile Include="CPlatform.cpp" />
     <ClCompile Include="Cplayscene.cpp" />
+    <ClCompile Include="CPortal.cpp" />
     <ClCompile Include="CRebel_Solider.cpp" />
     <ClCompile Include="CScene.cpp" />
     <ClCompile Include="CSprite.cpp" />
     <ClCompile Include="CSpriteManager.cpp" />
+    <ClCompile Include="CStair.cpp" />
+    <ClCompile Include="CStair2.cpp" />
     <ClCompile Include="CTextureManager.cpp" />
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="Flying_Killer.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object_notmoving.cpp" />
     <ClCompile Include="TinyXML\tinystr.cpp" />
     <ClCompile Include="TinyXML\tinyxml.cpp" />
     <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
@@ -185,25 +197,37 @@
     <ClInclude Include="CBlock.h" />
     <ClInclude Include="CCamera.h" />
     <ClInclude Include="CCellgrib.h" />
+    <ClInclude Include="CChangeCam.h" />
     <ClInclude Include="CChowmein.h" />
+    <ClInclude Include="CChowmeinBuble.h" />
     <ClInclude Include="CGame.h" />
+    <ClInclude Include="CGameMap.h" />
     <ClInclude Include="CGraphic.h" />
     <ClInclude Include="Cgrib.h" />
+    <ClInclude Include="CGunBullet.h" />
     <ClInclude Include="CHelper_1.h" />
     <ClInclude Include="CHuge_Hermit.h" />
+    <ClInclude Include="CIntroScene.h" />
     <ClInclude Include="CKeyBoard.h" />
+    <ClInclude Include="CLabel.h" />
     <ClInclude Include="CLocust.h" />
     <ClInclude Include="CMarco.h" />
+    <ClInclude Include="COhumein_Conga.h" />
+    <ClInclude Include="CPlatform.h" />
     <ClInclude Include="Cplayscene.h" />
+    <ClInclude Include="CPortal.h" />
     <ClInclude Include="CRebel_Solider.h" />
     <ClInclude Include="CScene.h" />
     <ClInclude Include="CSprite.h" />
     <ClInclude Include="CSpriteManager.h" />
+    <ClInclude Include="CStair.h" />
+    <ClInclude Include="CStair2.h" />
     <ClInclude Include="CTextureManager.h" />
     <ClInclude Include="Debug.h" />
     <ClInclude Include="Flying_Killer.h" />
     <ClInclude Include="GameObject.h" />
-    <ClInclude Include="Marcoinfo.h" />
+    <ClInclude Include="MS3GameInfo.h" />
+    <ClInclude Include="Object_notmoving.h" />
     <ClInclude Include="TinyXML\tinystr.h" />
     <ClInclude Include="TinyXML\tinyxml.h" />
     <ClInclude Include="Transform.h" />

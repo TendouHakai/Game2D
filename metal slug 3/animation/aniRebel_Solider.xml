@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Textures>
-	<Textures gameObjectId= "3000">
+	<Textures gameObjectId= "5">
 		<Animation aniId="Rebel_Solider_throw_bomb" frameTime="100" name="Jump">
 			<sprite id = "Rebel_Solider_throw_bomb_0" />
 			<sprite id = "Rebel_Solider_throw_bomb_1" />

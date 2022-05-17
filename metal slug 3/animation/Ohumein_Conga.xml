@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Textures>
+	<Textures textureId="Ohumein_Conga_dead">
+		<sprite id = "Ohumein_Conga_dead_0" x="0" y="0" w="93" h="82"/>
+		<sprite id = "Ohumein_Conga_dead_1" x="0" y="82" w="95" h="84"/>
+		<sprite id = "Ohumein_Conga_dead_2" x="0" y="166" w="99" h="89"/>
+		<sprite id = "Ohumein_Conga_dead_3" x="0" y="255" w="100" h="90"/>
+		<sprite id = "Ohumein_Conga_dead_4" x="0" y="345" w="104" h="90"/>
+		<sprite id = "Ohumein_Conga_dead_5" x="0" y="435" w="106" h="86"/>
+		<sprite id = "Ohumein_Conga_dead_6" x="0" y="521" w="107" h="91"/>
+		<sprite id = "Ohumein_Conga_dead_7" x="0" y="612" w="109" h="93"/>
+		<sprite id = "Ohumein_Conga_dead_8" x="0" y="705" w="113" h="94"/>
+		<sprite id = "Ohumein_Conga_dead_9" x="0" y="799" w="116" h="95"/>
+		<sprite id = "Ohumein_Conga_dead_10" x="0" y="894" w="117" h="94"/>
+		<sprite id = "Ohumein_Conga_dead_11" x="0" y="988" w="119" h="92"/>
+		<sprite id = "Ohumein_Conga_dead_12" x="0" y="1080" w="119" h="88"/>
+		<sprite id = "Ohumein_Conga_dead_13" x="0" y="1168" w="122" h="84"/>
+		<sprite id = "Ohumein_Conga_dead_14" x="0" y="1252" w="120" h="79"/>
+		<sprite id = "Ohumein_Conga_dead_15" x="0" y="1331" w="121" h="50"/>
+		<sprite id = "Ohumein_Conga_dead_16" x="0" y="1381" w="122" h="49"/>
+		<sprite id = "Ohumein_Conga_dead_17" x="0" y="1430" w="123" h="45"/>
+		<sprite id = "Ohumein_Conga_dead_18" x="0" y="1475" w="124" h="43"/>
+		<sprite id = "Ohumein_Conga_dead_19" x="0" y="1518" w="124" h="40"/>
+		<sprite id = "Ohumein_Conga_dead_20" x="0" y="1558" w="126" h="37"/>
+		<sprite id = "Ohumein_Conga_dead_21" x="0" y="1595" w="126" h="33"/>
+		<sprite id = "Ohumein_Conga_dead_22" x="0" y="1628" w="126" h="29"/>
+		<sprite id = "Ohumein_Conga_dead_23" x="0" y="1657" w="126" h="25"/>
+		<sprite id = "Ohumein_Conga_dead_24" x="0" y="1682" w="124" h="20"/>
+		<sprite id = "Ohumein_Conga_dead_25" x="0" y="1702" w="122" h="16"/>
+		<sprite id = "Ohumein_Conga_dead_26" x="0" y="1718" w="118" h="13"/>
+		<sprite id = "Ohumein_Conga_dead_27" x="0" y="1731" w="114" h="10"/>
+		<sprite id = "Ohumein_Conga_dead_28" x="0" y="1741" w="110" h="8"/>
+		<sprite id = "Ohumein_Conga_dead_29" x="0" y="1749" w="106" h="5"/>
+		<sprite id = "Ohumein_Conga_dead_30" x="0" y="1754" w="100" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_31" x="0" y="1758" w="90" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_32" x="0" y="1762" w="77" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_33" x="0" y="1766" w="71" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_34" x="0" y="1770" w="63" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_35" x="63" y="1770" w="52" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_36" x="0" y="1774" w="42" h="4"/>
+		<sprite id = "Ohumein_Conga_dead_37" x="42" y="1774" w="30" h="3"/>
+		<sprite id = "Ohumein_Conga_dead_38" x="72" y="1774" w="20" h="3"/>
+		<sprite id = "Ohumein_Conga_dead_39" x="92" y="1774" w="11" h="2"/>
+	</Textures>
+
+	<Textures textureId="Ohumein_Conga_IDLE">
+		<sprite id = "Ohumein_Conga_IDLE_0" x="0" y="0" w="104" h="81"/>
+		<sprite id = "Ohumein_Conga_IDLE_1" x="0" y="81" w="101" h="80"/>
+		<sprite id = "Ohumein_Conga_IDLE_2" x="0" y="161" w="98" h="79"/>
+		<sprite id = "Ohumein_Conga_IDLE_3" x="0" y="240" w="101" h="79"/>
+		<sprite id = "Ohumein_Conga_IDLE_4" x="0" y="319" w="102" h="79"/>
+		<sprite id = "Ohumein_Conga_IDLE_5" x="0" y="398" w="106" h="79"/>
+		<sprite id = "Ohumein_Conga_IDLE_6" x="0" y="477" w="104" h="79"/>
+		<sprite id = "Ohumein_Conga_IDLE_7" x="0" y="556" w="107" h="80"/>
+		<sprite id = "Ohumein_Conga_IDLE_8" x="0" y="636" w="106" h="80"/>
+		<sprite id = "Ohumein_Conga_IDLE_9" x="0" y="716" w="107" h="81"/>
+		<sprite id = "Ohumein_Conga_IDLE_10" x="0" y="797" w="107" h="81"/>
+		<sprite id = "Ohumein_Conga_IDLE_11" x="0" y="878" w="107" h="81"/>
+	</Textures>
+
+
+	<Textures textureId="Ohumein_Conga_Melee_attack">
+		<sprite id = "Ohumein_Conga_Melee_attack_0" x="356" y="79" w="104" h="80"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_1" x="0" y="239" w="98" h="81"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_2" x="109" y="159" w="88" h="80"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_3" x="0" y="324" w="79" h="86"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_4" x="178" y="428" w="76" h="112"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_5" x="0" y="428" w="92" h="111"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_6" x="79" y="324" w="129" h="91"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_7" x="226" y="239" w="136" h="85"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_8" x="362" y="239" w="134" h="85"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_9" x="208" y="324" w="116" h="94"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_10" x="324" y="324" w="98" h="104"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_11" x="92" y="428" w="86" h="112"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_12" x="378" y="428" w="104" h="118"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_13" x="254" y="428" w="124" h="114"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_14" x="235" y="0" w="135" h="79"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_15" x="0" y="79" w="128" h="79"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_16" x="98" y="239" w="128" h="81"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_17" x="0" y="0" w="128" h="77"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_18" x="128" y="79" w="121" h="79"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_19" x="0" y="159" w="109" h="80"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_20" x="128" y="0" w="107" h="78"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_21" x="249" y="79" w="107" h="79"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_22" x="197" y="159" w="110" h="80"/>
+		<sprite id = "Ohumein_Conga_Melee_attack_23" x="307" y="159" w="110" h="80"/>
+	</Textures>
+
+
+	<Textures textureId="Ohumein_Conga_walk">
+		<sprite id = "Ohumein_Conga_walk_0" x="0" y="0" w="106" h="79"/>
+		<sprite id = "Ohumein_Conga_walk_1" x="106" y="0" w="104" h="79"/>
+		<sprite id = "Ohumein_Conga_walk_2" x="98" y="79" w="107" h="80"/>
+		<sprite id = "Ohumein_Conga_walk_3" x="205" y="79" w="106" h="80"/>
+		<sprite id = "Ohumein_Conga_walk_4" x="0" y="159" w="107" h="81"/>
+		<sprite id = "Ohumein_Conga_walk_5" x="107" y="159" w="107" h="81"/>
+		<sprite id = "Ohumein_Conga_walk_6" x="214" y="159" w="107" h="81"/>
+		<sprite id = "Ohumein_Conga_walk_7" x="321" y="159" w="104" h="81"/>
+		<sprite id = "Ohumein_Conga_walk_8" x="311" y="79" w="101" h="80"/>
+		<sprite id = "Ohumein_Conga_walk_9" x="0" y="79" w="98" h="79"/>
+		<sprite id = "Ohumein_Conga_walk_10" x="210" y="0" w="101" h="79"/>
+		<sprite id = "Ohumein_Conga_walk_11" x="311" y="0" w="102" h="79"/>
+	</Textures>
+
+</Textures>

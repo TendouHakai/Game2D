@@ -78,6 +78,7 @@ CGame::CGame(HINSTANCE _hInstance, int _scrWidth, int _scrHeight, int _frameRate
 	this->_scrHeight = _scrHeight;
 	this->_frameRate = _frameRate;
 	this->_windowMode = _windowMode;
+	this->current_scene = this->next_scene = -1;
 
 	_Instance = this;
 }
@@ -100,30 +101,24 @@ void CGame::GameInit()
 	Camera->SetCamPosition(Vec2(0,WINDOW_HEIGHT+100));
 	Camera->setCamSize(Vec2(WINDOW_WIDTH, WINDOW_HEIGHT));
 	
-
-	scene = new Cplayscene(01,(LPSTR)"scene1.txt", Marco);
-	scene->Load();
+	Load((LPSTR)"metal slug 3.txt");
+	
 	LoadResource();
 	//LoadGameObject();
 }
 
 void CGame::GameRun()
 {	
-	
 	Graphic->Begin();
-
-	/*Marco->Update(count_per_frame);
-
-	Camera->SetCamFollow(Marco->GetPosition());
-	Marco->Render();
-	for (int i = 0; i < GameObject.size(); i++)
+	DebugOut(L"Game Run %d\n", current_scene);
+	if (current_scene == 3)
 	{
-		GameObject[i]->Update(count_per_frame);
-		GameObject[i]->Render();
-	}*/
-	scene->Update(count_per_frame);
-	scene->Render();
+		DebugOut(L"\n");
+	}
+	GetcurrentScene()->Update(count_per_frame);
+	GetcurrentScene()->Render();
 	Graphic->End();
+	SwitchScene();
 }
 
 void CGame::GameEnd()
@@ -158,54 +153,130 @@ void CGame::LoadResource()
 		}
 	}
 }
+void CGame::_ParseSection_SETTINGS(string line)
+{
+	vector<string> tokens = split(line);
 
-//void CGame::LoadGameObject()
-//{
-//	CChowmein* chowmein = new CChowmein(Vec2(100, 100));
-//	chowmein->SetState(CChowmein_States::Walk);
-//	GameObject.push_back(chowmein);
-//
-//	chowmein = new CChowmein(Vec2(200, 200));
-//	chowmein->SetState(CChowmein_States::IDLE);
-//	GameObject.push_back(chowmein);
-//
-//	chowmein = new CChowmein(Vec2(300, 300));
-//	chowmein->SetState(CChowmein_States::MeleeAttack);
-//	GameObject.push_back(chowmein);
-//
-//	 chowmein = new CChowmein(Vec2(400, 400));
-//	chowmein->SetState(CChowmein_States::RangeAttack);
-//	GameObject.push_back(chowmein);
-//
-//	chowmein = new CChowmein(Vec2(500, 500));
-//	chowmein->SetState(CChowmein_States::Dead);
-//	GameObject.push_back(chowmein);
-//
-//	CLocust* Locust = new CLocust(Vec2(200, 100));
-//	Locust->SetState(Locust_states::attack);
-//	GameObject.push_back(Locust);
-//
-//	Locust = new CLocust(Vec2(300, 200));
-//	Locust->SetState(Locust_states::preattack);
-//	GameObject.push_back(Locust);
-//
-//	Locust = new CLocust(Vec2(400, 300));
-//	Locust->SetState(Locust_states::flying);
-//	GameObject.push_back(Locust);
-//
-//	Locust = new CLocust(Vec2(500, 400));
-//	Locust->SetState(Locust_states::turn);
-//	GameObject.push_back(Locust);
-//
-//	Flying_Killer* Flying_killer = new Flying_Killer(Vec2(300, 0));
-//	GameObject.push_back(Flying_killer);
-//}
+	if (tokens.size() < 2) return;
+	if (tokens[0] == "start")
+		next_scene = atoi(tokens[1].c_str());
+	else
+		DebugOut(L"[ERROR] Unknown game setting: %s\n", (LPSTR*)(tokens[0]).c_str());
+}
+void CGame::_ParseSection_SCENES(string line)
+{
+	vector<string> tokens = split(line);
+
+	if (tokens.size() < 2) return;
+	int id = atoi(tokens[0].c_str());
+	LPCWSTR path = ToLPCWSTR(tokens[1]);	// file: ASCII format (single-byte char) => Wide Char
+	int nextsceneID = -1;
+	LPSCENE scene = NULL;
+	if (tokens.size() == 3)
+	{
+		nextsceneID = atoi(tokens[2].c_str());
+		scene = new Cplayscene(id, path, nextsceneID);
+	}
+	else scene = new Cplayscene(id, path);
+	scenes[id] = scene;
+}
+void CGame::Load(LPSTR gamePath)
+{
+	DebugOut(L"[INFO] Start loading game file : %s\n", gamePath);
+
+	ifstream f;
+	f.open(gamePath);
+	char str[MAX_LINE];
+
+	// current resource section flag
+	int section = GAME_FILE_SECTION_UNKNOWN;
+	while (f.getline(str, MAX_LINE))
+	{
+		string line(str);
+
+		if (line[0] == '#') continue;	// skip comment lines	
+
+		if (line == "[SETTINGS]") { section = GAME_FILE_SECTION_SETTINGS; continue; }
+		if (line == "[SCENES]") { section = GAME_FILE_SECTION_SCENES; continue; }
+		if (line[0] == '[')
+		{
+			section = GAME_FILE_SECTION_UNKNOWN;
+			DebugOut(L"[ERROR] Unknown section: %s\n", ToLPCWSTR(line));
+			continue;
+		}
+
+		//
+		// data section
+		//
+		switch (section)
+		{
+		case GAME_FILE_SECTION_SETTINGS: _ParseSection_SETTINGS(line); break;
+		case GAME_FILE_SECTION_SCENES: _ParseSection_SCENES(line); break;
+		}
+	}
+	f.close();
+
+	DebugOut(L"[INFO] Loading game file : %s has been loaded successfully\n", gamePath);
+
+	SwitchScene();
+}
+void CGame::SwitchScene()
+{
+	if (next_scene < 0 || next_scene == current_scene) return;
+
+	DebugOut(L"[INFO] Switching to scene %d\n", next_scene);
+	Vec2 speed = Vec2(0, 0);
+	Cplayscene* playscene = (Cplayscene*)scenes[current_scene];
+	if (current_scene>=0)
+	{
+		if (playscene->isHavePlayer())
+		{
+			Cplayscene* playscene = (Cplayscene*)scenes[current_scene];
+			speed = playscene->GetSpeedPlayer();
+			scenes[current_scene]->UnLoad();
+		}
+	}
+
+	current_scene = next_scene;
+	if (current_scene >= 10)
+		Camera->SetCamPosition(Vec2(0, WINDOW_HEIGHT));
+	else Camera->SetCamPosition(Vec2(0, WINDOW_HEIGHT + 100));
+	Camera->SetSceneStart(Vec2(0, 0));
+	Cplayscene* s = (Cplayscene*)scenes[current_scene];
+	if (current_scene == 3)
+	{
+		DebugOut(L"\n");
+	}
+	s->Load();
+	if(speed != Vec2(0,0))
+		s->SetSpeedPlayer(speed);
+}
+void CGame::SetNextScene(int nextScene)
+{
+	this->next_scene = nextScene;
+}
+
+void CGame::SetNextScene()
+{
+	Cplayscene* playscene = (Cplayscene*)scenes[current_scene];
+	next_scene = playscene->GetIDNextScene();
+}
 
 CGame* CGame::GetInstance()
 {
 	if (_Instance == NULL) 
 		_Instance = new CGame();
 	return _Instance;
+}
+
+LPSCENE CGame::GetcurrentScene()
+{
+	return scenes[current_scene];
+}
+
+void CGame::AddObjectsToCurrrentScene(int ObjectID, LPCGameObject obj)
+{
+	scenes[current_scene]->AddObject(ObjectID, obj);
 }
 
 

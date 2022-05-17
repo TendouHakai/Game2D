@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Textures>
-	<Textures gameObjectId= "2000">
+	<Textures gameObjectId= "2">
 		<Animation aniId="ani_Locust_attack" frameTime="100" name="walk">
 			<sprite id = "Locust_attack_0 " />
 			<sprite id = "Locust_attack_1 " />

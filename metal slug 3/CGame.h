@@ -7,7 +7,7 @@
 #include "CKeyBoard.h"
 #include"CCamera.h"
 
-#include "Marcoinfo.h"
+#include "MS3GameInfo.h"
 #include "CAnimationManager.h"
 #include"CAnimation.h"
 #include"CSpriteManager.h"
@@ -16,11 +16,6 @@
 #include "CScene.h"
 #include "Cplayscene.h"
 #define FRAME_RATE 30
-	
-#include"CChowmein.h"
-#include"CMarco.h"
-#include"CLocust.h"
-#include"Flying_Killer.h"
 
 class CGame
 {
@@ -49,12 +44,18 @@ private:
 	/*bool		_Initkeyboard();*/
 	CGraphic* Graphic;
 	CKeyBoard* KeyBoard;
-	CMarco* Marco = new CMarco(Vec2(100,200));
+	CMarco* Marco = new CMarco(Vec2(100,400));
 	vector<CGameObject*> GameObject;
 
 	CCamera* Camera = CCamera::GetInstance();
 
 	CScene* scene;
+	unordered_map<int, LPSCENE> scenes;
+	int current_scene;
+	int next_scene;
+
+	void _ParseSection_SETTINGS(string line);
+	void _ParseSection_SCENES(string line);
 public:
 
 	static LRESULT CALLBACK _WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
@@ -69,6 +70,12 @@ public:
 	void GameEnd();
 
 	void LoadResource();
+	void Load(LPSTR gamePath);
+	void SwitchScene();
+	void SetNextScene(int nextScene);
+	void SetNextScene();
+	LPSCENE GetcurrentScene();
+	void AddObjectsToCurrrentScene(int ObjectID, LPCGameObject obj = NULL);
 	//void LoadGameObject();
 
 	static CGame* GetInstance();

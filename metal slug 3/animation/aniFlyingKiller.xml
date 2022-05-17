@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Textures>
-	<Textures gameObjectId= "3000">
+	<Textures gameObjectId= "3">
 		<Animation aniId="ani_Flying_killer_jump" frameTime="100" name="Jump">
 			<sprite id = "Flying_killer_jump_0 "/>
 			<sprite id = "Flying_killer_jump_1 " />
@@ -42,6 +42,26 @@
 			<sprite id = "Flying_killer_attack_22 " />
 			<sprite id = "Flying_killer_attack_23 " />
 		</Animation>
+		
+		<Animation aniId="Flying_killer_dead" frameTime="40" name="dead">
+			<sprite id = "Flying_killer_dead_0" x="35" y="138" w="38" h="31"/>
+			<sprite id = "Flying_killer_dead_1" x="0" y="105" w="35" h="30"/>
+			<sprite id = "Flying_killer_dead_2" x="64" y="38" w="32" h="32"/>
+			<sprite id = "Flying_killer_dead_3" x="65" y="70" w="33" h="35"/>
+			<sprite id = "Flying_killer_dead_4" x="91" y="0" w="31" h="38"/>
+			<sprite id = "Flying_killer_dead_5" x="30" y="0" w="30" h="35"/>
+			<sprite id = "Flying_killer_dead_6" x="0" y="70" w="32" h="32"/>
+			<sprite id = "Flying_killer_dead_7" x="70" y="105" w="35" h="33"/>
+			<sprite id = "Flying_killer_dead_8" x="73" y="138" w="38" h="31"/>
+			<sprite id = "Flying_killer_dead_9" x="0" y="138" w="35" h="30"/>
+			<sprite id = "Flying_killer_dead_10" x="0" y="38" w="32" h="32"/>
+			<sprite id = "Flying_killer_dead_11" x="32" y="70" w="33" h="35"/>
+			<sprite id = "Flying_killer_dead_12" x="60" y="0" w="31" h="38"/>
+			<sprite id = "Flying_killer_dead_13" x="0" y="0" w="30" h="35"/>
+			<sprite id = "Flying_killer_dead_14" x="32" y="38" w="32" h="32"/>
+			<sprite id = "Flying_killer_dead_15" x="35" y="105" w="35" h="33"/>
+		</Animation>
+
 	
 	</Textures>
 </Textures>

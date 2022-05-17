@@ -40,8 +40,11 @@
     <Filter Include="FrameWork\tinyXML">
       <UniqueIdentifier>{7a666231-44ed-4695-91dd-0fbce7ff8f10}</UniqueIdentifier>
     </Filter>
-    <Filter Include="FrameWork\GameObject\GameWorld">
+    <Filter Include="FrameWork\GameWorld">
       <UniqueIdentifier>{7ec6db96-deae-4081-ba25-027e18b7340c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\Object collision moving">
+      <UniqueIdentifier>{236648d6-1b0f-441f-9bee-c705bd9a80fb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -76,7 +79,7 @@
       <Filter>FrameWork\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="CCamera.cpp">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
     </ClCompile>
     <ClCompile Include="CKeyBoard.cpp">
       <Filter>FrameWork\InputDevice</Filter>
@@ -123,14 +126,50 @@
     <ClCompile Include="CRebel_Solider.cpp">
       <Filter>FrameWork\GameObject</Filter>
     </ClCompile>
-    <ClCompile Include="CBlock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CCellgrib.cpp">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
     </ClCompile>
     <ClCompile Include="Cgrib.cpp">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock.cpp">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeCam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGunBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChowmeinBuble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COhumein_Conga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_notmoving.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +179,7 @@
     <ClInclude Include="Debug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Marcoinfo.h">
+    <ClInclude Include="MS3GameInfo.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="GameObject.h">
@@ -174,7 +213,7 @@
       <Filter>FrameWork\GameObject</Filter>
     </ClInclude>
     <ClInclude Include="CCamera.h">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
     </ClInclude>
     <ClInclude Include="CKeyBoard.h">
       <Filter>FrameWork\InputDevice</Filter>
@@ -212,14 +251,50 @@
     <ClInclude Include="CRebel_Solider.h">
       <Filter>FrameWork\GameObject</Filter>
     </ClInclude>
-    <ClInclude Include="CBlock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CCellgrib.h">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
     </ClInclude>
     <ClInclude Include="Cgrib.h">
-      <Filter>FrameWork\GameObject\GameWorld</Filter>
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock.h">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeCam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGunBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChowmeinBuble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COhumein_Conga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_notmoving.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

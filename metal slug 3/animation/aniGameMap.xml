@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Textures>
+	<Textures gameObjectId= "12">
+		<Animation aniId="Sea_Map1" frameTime="100" name="Jump">
+			<sprite id ="Sea_Map1_0 " x="0" y="694" w="563" h="40" />
+			<sprite id ="Sea_Map1_1" x="0" y="760" w="563" h="40" />
+			<sprite id ="Sea_Map1_2 " x="0" y="826" w="563" h="40" />
+			<sprite id ="Sea_Map1_3 " x="0" y="892" w="563" h="40" />
+			<sprite id ="Sea_Map1_4 " x="0" y="958" w="563" h="40" />
+			<sprite id ="Sea_Map1_5 " x="0" y="1024" w="563" h="40" />
+			<sprite id ="Sea_Map1_6 " x="0" y="1090" w="563" h="40" />
+			<sprite id ="Sea_Map1_7 " x="0" y="1156" w="563" h="40" />
+		</Animation>
+
+		<Animation aniId="Sea_Map0" frameTime="100" name="Jump">
+			<sprite id ="Sea_Map0_0 " x="0" y="669" w="563" h="24" />
+			<sprite id ="Sea_Map0_1 " x="0" y="735" w="563" h="24" />
+			<sprite id ="Sea_Map0_2 " x="0" y="801" w="563" h="24" />
+			<sprite id ="Sea_Map0_3 " x="0" y="867" w="563" h="24" />
+			<sprite id ="Sea_Map0_4 " x="0" y="933" w="563" h="24" />
+			<sprite id ="Sea_Map0_5 " x="0" y="999" w="563" h="24" />
+			<sprite id ="Sea_Map0_6 " x="0" y="1065" w="563" h="24" />
+			<sprite id ="Sea_Map0_7 " x="0" y="1131" w="563" h="24" />
+		</Animation>
+	</Textures>
+</Textures>

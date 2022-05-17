@@ -1,0 +1,3 @@
+[OBJECTS]
+[MAP]
+introscene01.png	255	0	255

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Textures>
-	<Textures gameObjectId= "1100">
+	<Textures gameObjectId= "4">
 		<Animation aniId="Huge_Hermit_bomb_drop" frameTime="100" name="run">
 			<sprite id = "Huge_Hermit_bomb_drop_0" x="0" y="95" w="32" h="25"/>
 			<sprite id = "Huge_Hermit_bomb_drop_1" x="0" y="145" w="33" h="25"/>

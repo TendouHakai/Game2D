@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8bf782cd37f06f89b30fc62a252d4702:7e1fba59fef8af44fa742abc505a4c7c:b170e3b559c0e4791a69b8773fecdbfe$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Flying_killer_dead.png" width="122" height="169">
+    <sprite n="0.png" x="35" y="138" w="38" h="31"/>
+    <sprite n="1.png" x="0" y="105" w="35" h="30"/>
+    <sprite n="2.png" x="64" y="38" w="32" h="32"/>
+    <sprite n="3.png" x="65" y="70" w="33" h="35"/>
+    <sprite n="4.png" x="91" y="0" w="31" h="38"/>
+    <sprite n="5.png" x="30" y="0" w="30" h="35"/>
+    <sprite n="6.png" x="0" y="70" w="32" h="32"/>
+    <sprite n="7.png" x="70" y="105" w="35" h="33"/>
+    <sprite n="8.png" x="73" y="138" w="38" h="31"/>
+    <sprite n="9.png" x="0" y="138" w="35" h="30"/>
+    <sprite n="10.png" x="0" y="38" w="32" h="32"/>
+    <sprite n="11.png" x="32" y="70" w="33" h="35"/>
+    <sprite n="12.png" x="60" y="0" w="31" h="38"/>
+    <sprite n="13.png" x="0" y="0" w="30" h="35"/>
+    <sprite n="14.png" x="32" y="38" w="32" h="32"/>
+    <sprite n="15.png" x="35" y="105" w="35" h="33"/>
+</TextureAtlas>

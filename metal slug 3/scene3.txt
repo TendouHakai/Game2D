@@ -1,0 +1,4 @@
+[OBJECTS]
+0	01	100	250	1
+[MAP]
+mission1_scene03.png	255	0	255

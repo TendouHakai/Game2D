@@ -3,7 +3,7 @@
 void Cgrib::Build(unordered_map<int, LPCGameObject> listGameObjects, int wMap = 0, int hMap = 0)
 {
 	this->wCell = CCamera::GetInstance()->GetCamSize().x / 2;
-	this->hCell = this->wCell;
+	this->hCell = CCamera::GetInstance()->GetCamSize().y / 2;
 	this->rows = hMap / this->hCell;
 	this->columns = wMap / this->wCell;
 	grib = new CCellgrib * [rows +1];
@@ -14,7 +14,7 @@ void Cgrib::Build(unordered_map<int, LPCGameObject> listGameObjects, int wMap = 
 	int rowStart, rowEnd, columnStart, columnEnd;
 	for (auto x : listGameObjects)
 	{
-		getCellcontainGameObject(rowStart, columnStart, rowEnd, columnEnd, x.second->getBoundingBox());
+		getCellcontainGameObject(rowStart, columnStart, rowEnd, columnEnd, x.second->getActiveRange());
 		for (int i = rowStart; i <= rowEnd; i++)
 		{
 			for (int j = columnStart; j <= columnEnd; j++)
@@ -54,16 +54,23 @@ unordered_map<int, LPCGameObject> Cgrib::getlistGameObjectsInCamera()
 			
 		}
 	}
-	DebugOut(L"getlistGameObjectsInCamera is completed");
 	return listGameObjectInCamera;
 }
 
 void Cgrib::getCellcontainGameObject(int &rowStart, int &columnStart, int &rowEnd, int &columnEnd, RECT getBoundingBox)
 {
 	rowStart = getBoundingBox.top / hCell;
+	if (rowStart < 0)
+		rowStart = 0;
 	rowEnd = getBoundingBox.bottom / hCell;
+	if (rowEnd >= rows)
+		rowEnd = rows - 1;
 	columnStart = getBoundingBox.left / wCell;
+	if (columnStart < 0)
+		columnStart = 0;
 	columnEnd = getBoundingBox.right / wCell;
+	if (columnEnd >= columns)
+		columnEnd = columns - 1;
 }
 
 void Cgrib::Release()

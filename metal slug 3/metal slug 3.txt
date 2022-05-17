@@ -1,0 +1,10 @@
+[SETTINGS]
+start	10
+#id	type	file
+# type: 0: intro, 1: play scene 
+[SCENES]
+10	introscene1.txt	11
+11	howtoplayscene.txt	1
+1	scene1.txt
+2	scene2.txt
+3	scene3.txt
