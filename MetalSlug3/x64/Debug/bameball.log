@@ -1,0 +1,82 @@
+﻿  audio.cpp
+F:\game\save game\audio.h(6,10): fatal error C1083: Cannot open include file: 'xact3.h': No such file or directory
+  CAnimation.cpp
+F:\game\save game\Transform.h(2,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CAnimationManager.cpp
+F:\game\save game\Transform.h(2,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CBlock.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CCamera.cpp
+F:\game\save game\Transform.h(2,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CCellgrib.cpp
+F:\game\save game\CCellgrib.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CChangeCam.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CChowmein.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CChowmeinBuble.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CGame.cpp
+F:\game\save game\CGame.h(5,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CGameMap.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CGraphic.cpp
+F:\game\save game\CGraphic.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Cgrib.cpp
+F:\game\save game\CCellgrib.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CGunBullet.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CHelper_1.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CHuge_Hermit.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CIntroScene.cpp
+  CKeyBoard.cpp
+F:\game\save game\CKeyBoard.h(5,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CLabel.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CLocust.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Generating Code...
+  Compiling...
+  CMarco.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  COhumein_Conga.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CPlatform.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Cplayscene.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CPortal.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CRebel_Solider.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CScene.cpp
+F:\game\save game\CScene.h(3,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CSprite.cpp
+F:\game\save game\Transform.h(2,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CSpriteManager.cpp
+F:\game\save game\Transform.h(2,9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CStair.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CStair2.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CTextureManager.cpp
+F:\game\save game\CTextureManager.h(4,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Debug.cpp
+  Flying_Killer.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  GameObject.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  main.cpp
+F:\game\save game\CGame.h(5,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Object_notmoving.cpp
+F:\game\save game\GameObject.h(3,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  Generating Code...
+  Compiling...
+  tinyxmlparser.cpp
+  Utils.cpp
+  Generating Code...

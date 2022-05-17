@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{267e93b1-89f1-4035-b1f4-aed7edcbb085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject">
+      <UniqueIdentifier>{0e0cda52-fe33-4aff-b4d8-c2024c5e4ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation">
+      <UniqueIdentifier>{da2ee35d-560d-4d0e-9f2c-fd4f111487ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Sprite">
+      <UniqueIdentifier>{cec0adc2-6106-4aed-9680-4fa8bdc077e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Texture">
+      <UniqueIdentifier>{9fe31ca8-50cd-4bfb-b840-8cd80c2fa3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameAnimation\Animation">
+      <UniqueIdentifier>{bc8deb9d-ce1c-4877-b6c4-4c28dd310dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameGraphic">
+      <UniqueIdentifier>{e0281e1a-ad75-4740-b0eb-5326cb1b1d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\InputDevice">
+      <UniqueIdentifier>{dd09733a-67e9-49ef-a26c-dce812bf8263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\tinyXML">
+      <UniqueIdentifier>{7a666231-44ed-4695-91dd-0fbce7ff8f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameWorld">
+      <UniqueIdentifier>{7ec6db96-deae-4081-ba25-027e18b7340c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\Object collision moving">
+      <UniqueIdentifier>{236648d6-1b0f-441f-9bee-c705bd9a80fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\Enemeis">
+      <UniqueIdentifier>{fb43961d-577e-47c3-a6d2-bd87cc95a7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\player">
+      <UniqueIdentifier>{e4c40507-10cf-40e6-a632-e19c2cb7ffa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject\bullet">
+      <UniqueIdentifier>{57bfdfc7-9c0d-4519-9ef7-ac8f458a4107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteManager.cpp">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>FrameWork\GameAnimation\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphic.cpp">
+      <Filter>FrameWork\GameGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationManager.cpp">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyBoard.cpp">
+      <Filter>FrameWork\InputDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cplayscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelper_1.cpp">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CCellgrib.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Cgrib.cpp">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock.cpp">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeCam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_notmoving.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChowmein.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="CLocust.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="CRebel_Solider.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarco.cpp">
+      <Filter>FrameWork\GameObject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="CHuge_Hermit.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="Flying_Killer.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="COhumein_Conga.cpp">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClCompile>
+    <ClCompile Include="CPortal.cpp">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair.cpp">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair2.cpp">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClCompile>
+    <ClCompile Include="CGunBullet.cpp">
+      <Filter>FrameWork\GameObject\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CChowmeinBuble.cpp">
+      <Filter>FrameWork\GameObject\bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS3GameInfo.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteManager.h">
+      <Filter>FrameWork\GameAnimation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>FrameWork\GameAnimation\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphic.h">
+      <Filter>FrameWork\GameGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationFrame.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationManager.h">
+      <Filter>FrameWork\GameAnimation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyBoard.h">
+      <Filter>FrameWork\InputDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>FrameWork\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cplayscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHelper_1.h">
+      <Filter>FrameWork\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCellgrib.h">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Cgrib.h">
+      <Filter>FrameWork\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock.h">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeCam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_notmoving.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChowmein.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="CLocust.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="CRebel_Solider.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarco.h">
+      <Filter>FrameWork\GameObject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="CHuge_Hermit.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="Flying_Killer.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="COhumein_Conga.h">
+      <Filter>FrameWork\GameObject\Enemeis</Filter>
+    </ClInclude>
+    <ClInclude Include="CPortal.h">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair.h">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair2.h">
+      <Filter>FrameWork\GameObject\Object collision moving</Filter>
+    </ClInclude>
+    <ClInclude Include="CChowmeinBuble.h">
+      <Filter>FrameWork\GameObject\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CGunBullet.h">
+      <Filter>FrameWork\GameObject\bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
